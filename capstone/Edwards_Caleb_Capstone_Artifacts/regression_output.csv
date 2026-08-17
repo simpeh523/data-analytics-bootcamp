@@ -1,0 +1,1571 @@
+block,source_column,level,is_reference_level,coefficient,n_obs_at_level
+model_fit,specialty,r_squared,False,0.08585209357295509,390473
+model_fit,specialty,adj_r_squared,False,0.0856272892842258,390473
+model_fit,specialty,rss,False,727415761496.9479,390473
+model_fit,specialty,rmse,False,1365.053895407588,390473
+model_fit,specialty,n_params,False,97.0,390473
+model_fit,specialty,iterations,False,2.0,390473
+model_fit,specialty,normal_eq_max_abs,False,7.153626029321458e-07,390473
+model_fit,city,r_squared,False,0.0032428113694473737,390473
+model_fit,city,adj_r_squared,False,0.002668123114465626,390473
+model_fit,city,rss,False,793150522248.7919,390473
+model_fit,city,rmse,False,1425.633922447445,390473
+model_fit,city,n_params,False,226.0,390473
+model_fit,city,iterations,False,2.0,390473
+model_fit,city,normal_eq_max_abs,False,1.0395569915999658e-07,390473
+model_fit,generic,r_squared,False,0.9293765762910098,390473
+model_fit,generic,adj_r_squared,False,0.9291632343962002,390473
+model_fit,generic,rss,False,56197242454.54647,390473
+model_fit,generic,rmse,False,379.9421991503576,390473
+model_fit,generic,n_params,False,1177.0,390473
+model_fit,generic,iterations,False,2.0,390473
+model_fit,generic,normal_eq_max_abs,False,6.901683402560366e-08,390473
+model_fit,specialty + city,r_squared,False,0.08648419013382513,390473
+model_fit,specialty + city,adj_r_squared,False,0.08573258735703604,390473
+model_fit,specialty + city,rss,False,726912782714.2671,390473
+model_fit,specialty + city,rmse,False,1364.9752941538632,390473
+model_fit,specialty + city,n_params,False,322.0,390473
+model_fit,specialty + city,iterations,False,29.0,390473
+model_fit,specialty + city,normal_eq_max_abs,False,3.5691800803761e-07,390473
+model_fit,specialty + generic,r_squared,False,0.9295631596247688,390473
+model_fit,specialty + generic,adj_r_squared,False,0.9293329549460502,390473
+model_fit,specialty + generic,rss,False,56048772325.30953,390473
+model_fit,specialty + generic,rmse,False,379.4867670758592,390473
+model_fit,specialty + generic,n_params,False,1273.0,390473
+model_fit,specialty + generic,iterations,False,101.0,390473
+model_fit,specialty + generic,normal_eq_max_abs,False,2.2570949909095361e-07,390473
+model_fit,city + generic,r_squared,False,0.9294452108984765,390473
+model_fit,city + generic,adj_r_squared,False,0.9291911512036362,390473
+model_fit,city + generic,rss,False,56142627774.68514,390473
+model_fit,city + generic,rmse,False,379.86732406000203,390473
+model_fit,city + generic,n_params,False,1402.0,390473
+model_fit,city + generic,iterations,False,11.0,390473
+model_fit,city + generic,normal_eq_max_abs,False,1.3446356206259225e-07,390473
+model_fit,specialty + city + generic,r_squared,False,0.9296253955796309,390473
+model_fit,specialty + city + generic,adj_r_squared,False,0.9293545535388383,390473
+model_fit,specialty + city + generic,rss,False,55999249251.22026,390473
+model_fit,specialty + city + generic,rmse,False,379.4287696987008,390473
+model_fit,specialty + city + generic,n_params,False,1498.0,390473
+model_fit,specialty + city + generic,iterations,False,101.0,390473
+model_fit,specialty + city + generic,normal_eq_max_abs,False,2.1535950622819655e-07,390473
+variance_explained,generic,n_levels,False,1177.0,390473
+variance_explained,generic,own_r_squared,False,0.9293765762910098,390473
+variance_explained,generic,adj_own_r_squared,False,0.9291632343962002,390473
+variance_explained,generic,r_squared_other_two,False,0.08648419013382513,390473
+variance_explained,generic,incremental_r_squared,False,0.8431412054458057,390473
+variance_explained,generic,pct_of_full_model_r2_own,False,99.9732344566097,390473
+variance_explained,specialty,n_levels,False,97.0,390473
+variance_explained,specialty,own_r_squared,False,0.08585209357295509,390473
+variance_explained,specialty,adj_own_r_squared,False,0.0856272892842258,390473
+variance_explained,specialty,r_squared_other_two,False,0.9294452108984765,390473
+variance_explained,specialty,incremental_r_squared,False,0.00018018468115432729,390473
+variance_explained,specialty,pct_of_full_model_r2_own,False,9.235127824732611,390473
+variance_explained,city,n_levels,False,226.0,390473
+variance_explained,city,own_r_squared,False,0.0032428113694473737,390473
+variance_explained,city,adj_own_r_squared,False,0.002668123114465626,390473
+variance_explained,city,r_squared_other_two,False,0.9295631596247688,390473
+variance_explained,city,incremental_r_squared,False,6.223595486209987e-05,390473
+variance_explained,city,pct_of_full_model_r2_own,False,0.3488299034070006,390473
+model_fit,specialty + city + generic,n_obs,False,390473.0,390473
+model_fit,specialty + city + generic,total_sum_of_squares,False,795730927547.6643,390473
+intercept,,(Intercept),False,-59.15534658782599,390473
+specialty,Prscrbr_Type,Addiction Medicine,True,0.0,40
+specialty,Prscrbr_Type,Adult Congenital Heart Disease,False,53.07771729014263,82
+specialty,Prscrbr_Type,Advanced Heart Failure and Transplant Cardiology,False,58.48825204248449,239
+specialty,Prscrbr_Type,Allergy/ Immunology,False,-114.71986949264074,976
+specialty,Prscrbr_Type,Anesthesiology,False,27.742585747880625,302
+specialty,Prscrbr_Type,Cardiac Surgery,False,20.709865755282536,10
+specialty,Prscrbr_Type,Cardiology,False,49.080520446230764,6222
+specialty,Prscrbr_Type,Certified Clinical Nurse Specialist,False,53.77304895109893,723
+specialty,Prscrbr_Type,Certified Nurse Midwife,False,33.80404876026136,75
+specialty,Prscrbr_Type,Certified Registered Nurse Anesthetist (CRNA),False,33.59608146016546,115
+specialty,Prscrbr_Type,Clinic/Center,False,13.712365891548508,23
+specialty,Prscrbr_Type,Clinical Cardiac Electrophysiology,False,64.90311601145251,956
+specialty,Prscrbr_Type,Colorectal Surgery (Proctology),False,13.09018278189696,61
+specialty,Prscrbr_Type,Counselor,False,39.44299962862209,2
+specialty,Prscrbr_Type,Critical Care (Intensivists),False,133.811250158194,1065
+specialty,Prscrbr_Type,Dental Hygienist,False,19.806464043232324,2
+specialty,Prscrbr_Type,Dentist,False,12.161707343743272,3970
+specialty,Prscrbr_Type,Dermatology,False,4.162347371299514,3407
+specialty,Prscrbr_Type,Diagnostic Radiology,False,14.311184288786585,15
+specialty,Prscrbr_Type,Emergency Medicine,False,9.311181442940207,3932
+specialty,Prscrbr_Type,Endocrinology,False,119.40398672915798,2885
+specialty,Prscrbr_Type,Epileptologists,False,239.87757634776656,34
+specialty,Prscrbr_Type,Family Medicine,False,8.386507322399831,422
+specialty,Prscrbr_Type,Family Practice,False,20.56037496633064,112120
+specialty,Prscrbr_Type,Gastroenterology,False,78.00248945610593,2305
+specialty,Prscrbr_Type,General Practice,False,10.734826216168065,1053
+specialty,Prscrbr_Type,General Surgery,False,-0.6564083694688243,740
+specialty,Prscrbr_Type,Geriatric Medicine,False,18.924407527543103,2936
+specialty,Prscrbr_Type,Geriatric Psychiatry,False,12.160844501240327,25
+specialty,Prscrbr_Type,Gynecological Oncology,False,9.076136626348795,57
+specialty,Prscrbr_Type,Hand Surgery,False,7.98402547264317,46
+specialty,Prscrbr_Type,Hematology,False,506.897417039392,47
+specialty,Prscrbr_Type,Hematology-Oncology,False,22.350456483189543,2640
+specialty,Prscrbr_Type,Hematopoietic Cell Transplantation and Cellular Therapy,False,59.44467511895647,192
+specialty,Prscrbr_Type,Hospice and Palliative Care,False,27.0291948364089,373
+specialty,Prscrbr_Type,Hospitalist,False,2.466671764834519,2306
+specialty,Prscrbr_Type,Infectious Disease,False,31.722008936816948,1593
+specialty,Prscrbr_Type,Internal Medicine,False,22.83065592807213,62451
+specialty,Prscrbr_Type,Interventional Cardiology,False,56.4279415734249,2276
+specialty,Prscrbr_Type,Interventional Pain Management,False,14.15137758900115,189
+specialty,Prscrbr_Type,Interventional Radiology,False,-34.28945151849878,42
+specialty,Prscrbr_Type,Legal Medicine,False,32.2518109284897,5
+specialty,Prscrbr_Type,Licensed Practical Nurse,False,-94.94126415093871,1
+specialty,Prscrbr_Type,Licensed Professional Counselor,False,8.416124705212049,22
+specialty,Prscrbr_Type,Maxillofacial Surgery,False,10.476938272277689,20
+specialty,Prscrbr_Type,Medical Genetics and Genomics,False,-593.1952193498,12
+specialty,Prscrbr_Type,Medical Oncology,False,-41.94245802040672,1108
+specialty,Prscrbr_Type,Medical Toxicology,False,14.323679810141606,3
+specialty,Prscrbr_Type,Micrographic Dermatologic Surgery,False,12.638290946743163,64
+specialty,Prscrbr_Type,Naturopath,False,-5.06181191634488,1
+specialty,Prscrbr_Type,Nephrology,False,23.843248134201243,2319
+specialty,Prscrbr_Type,Neurological Surgery,False,-106.96189705236608,14
+specialty,Prscrbr_Type,Neurology,False,124.5743311208468,5444
+specialty,Prscrbr_Type,"Neuromusculoskeletal Medicine, Sports Medicine",False,-2.4818392429531855,2
+specialty,Prscrbr_Type,Neuropsychiatry,False,29.497263667899087,299
+specialty,Prscrbr_Type,Neurosurgery,False,10.326052997552543,87
+specialty,Prscrbr_Type,Nuclear Medicine,False,58.623916805755,36
+specialty,Prscrbr_Type,Nurse Practitioner,False,19.32838040370447,80078
+specialty,Prscrbr_Type,Obstetrics & Gynecology,False,32.75676053064707,1451
+specialty,Prscrbr_Type,Ophthalmology,False,45.286834276006836,3529
+specialty,Prscrbr_Type,Optometry,False,39.776333695773445,2297
+specialty,Prscrbr_Type,Oral & Maxillofacial Surgery,False,10.939200261105404,71
+specialty,Prscrbr_Type,Oral Medicinist,False,9.300224794713571,11
+specialty,Prscrbr_Type,Oral Surgery (Dentist only),False,10.34312824301246,636
+specialty,Prscrbr_Type,Orthopaedic Surgery,False,-14.908103744435348,52
+specialty,Prscrbr_Type,Orthopedic Surgery,False,7.131671816294533,1711
+specialty,Prscrbr_Type,Osteopathic Manipulative Medicine,False,26.77241627294526,785
+specialty,Prscrbr_Type,Otolaryngology,False,13.991582822589233,1390
+specialty,Prscrbr_Type,Pain Management,False,52.48382648403013,464
+specialty,Prscrbr_Type,Pathology,False,47.09377882579318,25
+specialty,Prscrbr_Type,Pediatric Medicine,False,37.87518379544463,553
+specialty,Prscrbr_Type,Pediatrics,False,21.045964955629813,1
+specialty,Prscrbr_Type,Pharmacist,False,23.139655779187493,273
+specialty,Prscrbr_Type,Physical Medicine & Rehabilitation,False,1.9494847921438918,2
+specialty,Prscrbr_Type,Physical Medicine and Rehabilitation,False,19.758355121694972,1765
+specialty,Prscrbr_Type,Physician Assistant,False,25.395672881435218,50431
+specialty,Prscrbr_Type,Plastic Surgery,False,15.689064100627737,51
+specialty,Prscrbr_Type,Plastic and Reconstructive Surgery,False,5.881035974746288,95
+specialty,Prscrbr_Type,Podiatry,False,12.735301717826042,833
+specialty,Prscrbr_Type,Preventive Medicine,False,11.98549411532425,41
+specialty,Prscrbr_Type,Program of All-Inclusive Care for the Elderly (PACE) Provider Organization,False,-1.86152251482077,117
+specialty,Prscrbr_Type,Psychiatry,False,43.0119531060951,6210
+specialty,Prscrbr_Type,Psychiatry & Neurology,False,19.062276211905086,1692
+specialty,Prscrbr_Type,"Psychologist, Clinical",False,22.20226238353115,2
+specialty,Prscrbr_Type,Pulmonary Disease,False,51.628031185853004,2510
+specialty,Prscrbr_Type,Radiation Oncology,False,-21.29411225287176,180
+specialty,Prscrbr_Type,Registered Nurse,False,35.129339940212795,101
+specialty,Prscrbr_Type,Rheumatology,False,20.942420618272777,2405
+specialty,Prscrbr_Type,Sleep Medicine,False,-7.402684401219169,139
+specialty,Prscrbr_Type,Specialist,False,44.88821165379691,118
+specialty,Prscrbr_Type,Sports Medicine,False,13.100141688825985,115
+specialty,Prscrbr_Type,Student in an Organized Health Care Education/Training Program,False,-2.939657100126464,1271
+specialty,Prscrbr_Type,Surgery,False,9.226917267090075,4
+specialty,Prscrbr_Type,Surgical Oncology,False,31.900045411356615,41
+specialty,Prscrbr_Type,Thoracic Surgery,False,4.3647536200662564,19
+specialty,Prscrbr_Type,Urology,False,44.19281099428602,2479
+specialty,Prscrbr_Type,Vascular Surgery,False,-1.4007447352538946,139
+city,Prscrbr_City,Akron,True,0.0,235
+city,Prscrbr_City,Alamosa,False,47.34910483810583,1781
+city,Prscrbr_City,Alma,False,47.17836722749736,1
+city,Prscrbr_City,Antonito,False,74.68892216005021,2
+city,Prscrbr_City,Apple Valley,False,46.449454417747624,7
+city,Prscrbr_City,Arvada,False,45.29414861397918,3561
+city,Prscrbr_City,Aspen,False,41.91654964159884,557
+city,Prscrbr_City,Aurora,False,51.442518419829476,34301
+city,Prscrbr_City,Avon,False,47.132295173022975,736
+city,Prscrbr_City,Bailey,False,49.24410266498468,2
+city,Prscrbr_City,Basalt,False,57.64766227728465,530
+city,Prscrbr_City,Bayfield,False,101.98790552691594,109
+city,Prscrbr_City,Bellvue,False,27.63218292143883,4
+city,Prscrbr_City,Bennett,False,121.30803202712164,12
+city,Prscrbr_City,Berthoud,False,39.08882905683048,15
+city,Prscrbr_City,Black Hawk,False,-22.586947560781958,25
+city,Prscrbr_City,Boulder,False,51.176537834073194,9586
+city,Prscrbr_City,Breckenridge,False,60.79123577225204,112
+city,Prscrbr_City,Brighton,False,40.146415687766414,2952
+city,Prscrbr_City,Broomfield,False,48.6637913304829,2071
+city,Prscrbr_City,Brush,False,31.12834743608433,725
+city,Prscrbr_City,Buckley Afb,False,44.32763477479638,4
+city,Prscrbr_City,Buena Vista,False,61.04274412475504,477
+city,Prscrbr_City,Burlington,False,37.14504106003159,473
+city,Prscrbr_City,Byers,False,59.396324773719044,30
+city,Prscrbr_City,Calhan,False,59.14334634016062,234
+city,Prscrbr_City,Canon City,False,54.67868852089933,2420
+city,Prscrbr_City,Carbondale,False,51.74872025981262,430
+city,Prscrbr_City,Cascade,False,8.670055945947766,1
+city,Prscrbr_City,Castle Pines,False,43.61877378514531,495
+city,Prscrbr_City,Castle Rock,False,46.00912701985756,3561
+city,Prscrbr_City,Cedaredge,False,56.110169887319756,387
+city,Prscrbr_City,Centennial,False,45.172948561117096,6166
+city,Prscrbr_City,Cheyenne Wells,False,41.39167165738137,215
+city,Prscrbr_City,Cimarron,False,51.22487254156005,10
+city,Prscrbr_City,Clifton,False,32.55922000271913,62
+city,Prscrbr_City,Co Springs,False,41.58160757935367,2
+city,Prscrbr_City,Collbran,False,37.058180649982795,230
+city,Prscrbr_City,Colo Sprgs,False,45.46424059835902,22
+city,Prscrbr_City,Colo Springs,False,251.36531070972688,9
+city,Prscrbr_City,Colorado City,False,60.84663394853891,181
+city,Prscrbr_City,Colorado Spgs,False,45.769217743745436,131
+city,Prscrbr_City,Colorado Spings,False,34.09849043797364,8
+city,Prscrbr_City,Colorado Springs,False,51.309248193014156,40743
+city,Prscrbr_City,Commerce City,False,51.214214096899475,729
+city,Prscrbr_City,Conifer,False,50.276594800048905,655
+city,Prscrbr_City,Cortez,False,38.78074310593101,1215
+city,Prscrbr_City,Craig,False,46.7062580418348,826
+city,Prscrbr_City,Creede,False,48.720512845759835,123
+city,Prscrbr_City,Crested Butte,False,31.895919672956587,70
+city,Prscrbr_City,Crestone,False,-418.28474467094975,1
+city,Prscrbr_City,Cripple Creek,False,49.4095512966231,51
+city,Prscrbr_City,Dacono,False,38.952261849558035,68
+city,Prscrbr_City,Del Norte,False,16.83038784990689,550
+city,Prscrbr_City,Delta,False,47.44830894136243,1943
+city,Prscrbr_City,Denver,False,37.53120856756243,48634
+city,Prscrbr_City,Dillon,False,324.41932350431546,66
+city,Prscrbr_City,Divide,False,59.56118021699997,83
+city,Prscrbr_City,Dolores,False,39.398444162558704,24
+city,Prscrbr_City,Dove Creek,False,39.05537188584942,5
+city,Prscrbr_City,Dublin,False,29.32087674960244,3
+city,Prscrbr_City,Durango,False,46.90841381158819,5020
+city,Prscrbr_City,Eads,False,24.06075334514866,218
+city,Prscrbr_City,Eagle,False,44.628642616104685,321
+city,Prscrbr_City,Eaton,False,51.31080164883496,235
+city,Prscrbr_City,Eckert,False,41.31269345117161,333
+city,Prscrbr_City,Edgewater,False,28.95319359721723,11
+city,Prscrbr_City,Edwards,False,94.79481357633594,430
+city,Prscrbr_City,El Jebel,False,47.4363389993937,1
+city,Prscrbr_City,Elizabeth,False,44.81421208675031,185
+city,Prscrbr_City,Englewood,False,45.1600406054172,6482
+city,Prscrbr_City,Erie,False,39.85757754876897,1102
+city,Prscrbr_City,Estes Park,False,43.28788594879068,791
+city,Prscrbr_City,Evans,False,58.80292079418948,763
+city,Prscrbr_City,Evergreen,False,49.83611806792093,1223
+city,Prscrbr_City,Fairplay,False,40.81590406308989,21
+city,Prscrbr_City,Falcon,False,41.57138798008033,22
+city,Prscrbr_City,Federal Heights,False,64.6471880218028,71
+city,Prscrbr_City,Firestone,False,54.05872488407289,465
+city,Prscrbr_City,Florence,False,29.253119433794694,318
+city,Prscrbr_City,Florissant,False,44.38427151594648,97
+city,Prscrbr_City,Fort Carson,False,57.408009605749065,474
+city,Prscrbr_City,Fort Collins,False,47.86053204626596,17572
+city,Prscrbr_City,Fort Lupton,False,44.01106240644308,884
+city,Prscrbr_City,Fort Morgan,False,47.07425357419142,857
+city,Prscrbr_City,Fountain,False,54.0137107343875,425
+city,Prscrbr_City,Fowler,False,54.81440335779463,1
+city,Prscrbr_City,Foxfield,False,46.57906548778125,2
+city,Prscrbr_City,Franktown,False,42.573733229578565,69
+city,Prscrbr_City,Fraser,False,-11.417099073397026,14
+city,Prscrbr_City,Frederick,False,39.24474739263311,350
+city,Prscrbr_City,Frisco,False,77.96742714288,525
+city,Prscrbr_City,Fruita,False,38.94930152683064,1710
+city,Prscrbr_City,Ft Carson,False,59.29640680993165,215
+city,Prscrbr_City,Ft Collins,False,48.751164916305896,36
+city,Prscrbr_City,Ft. Carson,False,-21.13451461444074,12
+city,Prscrbr_City,Ft. Collins,False,40.77894727331897,10
+city,Prscrbr_City,Georgetown,False,47.325807210439066,1
+city,Prscrbr_City,Glendale,False,47.53076194844491,277
+city,Prscrbr_City,Glenwood Spgs,False,22.29397972187215,77
+city,Prscrbr_City,Glenwood Springs,False,35.42106606979764,1544
+city,Prscrbr_City,Golden,False,14.948830272438848,8302
+city,Prscrbr_City,Granby,False,51.40493184194733,193
+city,Prscrbr_City,Grand Jct,False,39.05955805136241,644
+city,Prscrbr_City,Grand Junction,False,49.44642021457846,12318
+city,Prscrbr_City,Greeley,False,54.45782477656791,9508
+city,Prscrbr_City,Greely,False,86.25107687775223,6
+city,Prscrbr_City,Greenley,False,48.58956515620082,7
+city,Prscrbr_City,Greenwood Village,False,43.43267207973586,4176
+city,Prscrbr_City,Greenwood Vlg,False,15.954011770478548,8
+city,Prscrbr_City,Guffey,False,21.594885330436245,2
+city,Prscrbr_City,Gunnison,False,44.96901225156466,635
+city,Prscrbr_City,Gypsum,False,43.53918488555236,4
+city,Prscrbr_City,Haxton,False,70.46010670101877,64
+city,Prscrbr_City,Haxtun,False,2.7947780918015965,36
+city,Prscrbr_City,Highland Ranch,False,30.930993956731726,5
+city,Prscrbr_City,Highlands Ranch,False,47.26299433274495,4679
+city,Prscrbr_City,Holly,False,31.731512081694397,21
+city,Prscrbr_City,Holyoke,False,22.103165838073668,319
+city,Prscrbr_City,Hotchkiss,False,35.913526864738664,217
+city,Prscrbr_City,Hudson,False,63.57792306411912,67
+city,Prscrbr_City,Hugo,False,14.726103637823122,624
+city,Prscrbr_City,Idaho Springs,False,45.419227851108204,5
+city,Prscrbr_City,Ignacio,False,23.62173959004328,98
+city,Prscrbr_City,Johnstown,False,35.87361088809115,1091
+city,Prscrbr_City,Julesburg,False,22.303059166706827,452
+city,Prscrbr_City,Keenesberg,False,52.23407149069543,8
+city,Prscrbr_City,Keenesburg,False,39.03154722776854,168
+city,Prscrbr_City,Keystone,False,20.671876331402945,1
+city,Prscrbr_City,Kiowa,False,47.61327542321141,25
+city,Prscrbr_City,Kremmling,False,56.67725079848061,358
+city,Prscrbr_City,La Jara,False,34.344465644243705,407
+city,Prscrbr_City,La Junta,False,39.95889802580957,1221
+city,Prscrbr_City,La Salle,False,36.60465848938601,4
+city,Prscrbr_City,Lafayette,False,15.778545041278775,5887
+city,Prscrbr_City,Lajunta,False,35.14510695994623,103
+city,Prscrbr_City,Lake City,False,44.367934674533544,28
+city,Prscrbr_City,Lakewood,False,36.95767261724402,12080
+city,Prscrbr_City,Lamar,False,41.54947666119525,1036
+city,Prscrbr_City,Laporte,False,42.496640857655066,50
+city,Prscrbr_City,Las Animas,False,29.81777765112813,123
+city,Prscrbr_City,Leadville,False,48.608141377008266,286
+city,Prscrbr_City,Limon,False,79.65878421743025,105
+city,Prscrbr_City,Littleton,False,44.46762286587566,11890
+city,Prscrbr_City,Livermore,False,39.77788807583852,24
+city,Prscrbr_City,Lone Tree,False,31.197983389853004,7285
+city,Prscrbr_City,Lone Treet,False,99.4546089158652,65
+city,Prscrbr_City,Lonetree,False,26.109531358798364,245
+city,Prscrbr_City,Longmont,False,56.91766036406142,8058
+city,Prscrbr_City,Louisville,False,31.992690062483703,1626
+city,Prscrbr_City,Loveland,False,52.382519584126044,6966
+city,Prscrbr_City,Lovleand,False,47.927712275236004,1
+city,Prscrbr_City,Lovlenad,False,54.97582746273992,95
+city,Prscrbr_City,Lyons,False,47.93856583112894,1
+city,Prscrbr_City,Mancos,False,36.70802538925453,301
+city,Prscrbr_City,Meeker,False,-32.32675117649334,228
+city,Prscrbr_City,Milliken,False,29.948740782980572,13
+city,Prscrbr_City,Monte Vista,False,40.42362168416328,603
+city,Prscrbr_City,Montebello,False,47.94580721043896,1
+city,Prscrbr_City,Montrose,False,39.30171297834933,4019
+city,Prscrbr_City,Monument,False,77.68814966067562,1064
+city,Prscrbr_City,Morrison,False,26.672346141739837,55
+city,Prscrbr_City,Naturita,False,41.29941687707148,131
+city,Prscrbr_City,Nederland,False,67.7861787033844,87
+city,Prscrbr_City,Niwot,False,36.90325369993175,209
+city,Prscrbr_City,North Glenn,False,49.3995214961533,1
+city,Prscrbr_City,Northgelnn,False,49.533633297395696,1
+city,Prscrbr_City,Northglenn,False,51.42596859376383,1017
+city,Prscrbr_City,Norwood,False,27.825794849350594,198
+city,Prscrbr_City,Oak Creek,False,43.314982548820566,80
+city,Prscrbr_City,Olathe,False,47.394696099328044,1
+city,Prscrbr_City,Pagosa Springs,False,44.8169032554923,1078
+city,Prscrbr_City,Palisade,False,44.06485948893777,97
+city,Prscrbr_City,Palmer Lake,False,12.842179625516767,60
+city,Prscrbr_City,Paonia,False,47.99580721043914,1
+city,Prscrbr_City,Parachute,False,59.28245341600598,281
+city,Prscrbr_City,Parker,False,19.463648906105394,9865
+city,Prscrbr_City,Penrose,False,45.11420176347589,2
+city,Prscrbr_City,Peterson Afb,False,54.91683981965068,117
+city,Prscrbr_City,Peterson Space Force Base,False,56.29241845409378,40
+city,Prscrbr_City,Peyton,False,28.110573531408917,369
+city,Prscrbr_City,Pueblo,False,49.75310034419697,17230
+city,Prscrbr_City,Pueblo West,False,37.155594999602656,962
+city,Prscrbr_City,Rangely,False,43.1853383658936,196
+city,Prscrbr_City,Ridgway,False,54.54910273228463,148
+city,Prscrbr_City,Rifle,False,35.848417372115215,911
+city,Prscrbr_City,Rocky Ford,False,50.22897926543802,510
+city,Prscrbr_City,Salida,False,36.06134635179644,1529
+city,Prscrbr_City,San Luis,False,54.53137569020552,42
+city,Prscrbr_City,Security,False,44.87572349528638,1
+city,Prscrbr_City,Severance,False,44.68891305635408,1
+city,Prscrbr_City,Sheridan,False,49.62656186603354,55
+city,Prscrbr_City,Silt,False,49.7514193408022,9
+city,Prscrbr_City,Silverthorne,False,61.60359878131162,177
+city,Prscrbr_City,Snowmass Village,False,47.024485185896765,17
+city,Prscrbr_City,Springfield,False,30.641299258982244,480
+city,Prscrbr_City,Steamboat Spgs,False,28.154437784171495,9
+city,Prscrbr_City,Steamboat Springs,False,29.695659363227335,1296
+city,Prscrbr_City,Sterling,False,31.48452289510582,1735
+city,Prscrbr_City,Strasburg,False,66.06470128458054,136
+city,Prscrbr_City,Stratton,False,48.527345671977415,1
+city,Prscrbr_City,Superior,False,56.25448528937176,464
+city,Prscrbr_City,Tabernash,False,19.52538705759061,4
+city,Prscrbr_City,Telluride,False,26.233786653870425,150
+city,Prscrbr_City,Thornton,False,62.644147684506656,4667
+city,Prscrbr_City,Timnath,False,52.24067818888861,243
+city,Prscrbr_City,Towaoc,False,4.941685115502381,59
+city,Prscrbr_City,Trinidad,False,28.548223695008573,699
+city,Prscrbr_City,U S A F Academy,False,48.56463073985107,1
+city,Prscrbr_City,Usaf Academy,False,33.37274996345596,227
+city,Prscrbr_City,Usafa,False,44.864235045744365,8
+city,Prscrbr_City,Vail,False,43.543772348658074,385
+city,Prscrbr_City,Vona,False,-47.18357496488304,6
+city,Prscrbr_City,Walsenburg,False,34.29999561955085,661
+city,Prscrbr_City,Walsh,False,23.23862550028176,130
+city,Prscrbr_City,Wellington,False,45.2275155454867,101
+city,Prscrbr_City,Westcliffe,False,56.753594136861985,123
+city,Prscrbr_City,Westminster,False,40.850889488811546,11368
+city,Prscrbr_City,Wheat Ridge,False,39.66439728415912,8294
+city,Prscrbr_City,Wheatridge,False,9.52520291899782,63
+city,Prscrbr_City,Wiley,False,66.59815377630467,29
+city,Prscrbr_City,Windsor,False,51.02814858902567,1777
+city,Prscrbr_City,Winter Park,False,53.14350075572938,95
+city,Prscrbr_City,Woodland Park,False,53.57609265842601,1351
+city,Prscrbr_City,Wray,False,17.57102241059767,433
+city,Prscrbr_City,Yuma,False,33.9877559902516,319
+generic,Gnrc_Name,0.9 % Sodium Chloride,True,0.0,79
+generic,Gnrc_Name,Abacavir Sulfate,False,113.49687782718411,5
+generic,Gnrc_Name,Abacavir Sulfate/Lamivudine,False,365.1992184795249,6
+generic,Gnrc_Name,Abacavir/Dolutegravir/Lamivudi,False,3735.1555792410563,43
+generic,Gnrc_Name,Abaloparatide,False,2811.000902176749,72
+generic,Gnrc_Name,Abatacept,False,5939.674311260102,73
+generic,Gnrc_Name,Abatacept/Maltose,False,3867.0459669171782,2
+generic,Gnrc_Name,Abemaciclib,False,14945.735997100082,36
+generic,Gnrc_Name,"Abiraterone Acet,submicronized",False,11167.410787400526,1
+generic,Gnrc_Name,Abiraterone Acetate,False,1383.5620108147964,132
+generic,Gnrc_Name,Abobotulinumtoxina,False,1684.199949565235,1
+generic,Gnrc_Name,Abrocitinib,False,5557.0968022688785,1
+generic,Gnrc_Name,Acalabrutinib Maleate,False,13643.060251466719,68
+generic,Gnrc_Name,Acamprosate Calcium,False,113.18242462765829,22
+generic,Gnrc_Name,Acarbose,False,14.553540523342235,16
+generic,Gnrc_Name,Acebutolol Hcl,False,20.747529924095033,3
+generic,Gnrc_Name,Acetaminophen,False,207.0886122696743,1
+generic,Gnrc_Name,Acetaminophen With Codeine,False,13.74372302443544,350
+generic,Gnrc_Name,Acetazolamide,False,14.354237245933746,76
+generic,Gnrc_Name,Acetic Acid,False,23.06944957679616,17
+generic,Gnrc_Name,Acitretin,False,226.9910545587968,19
+generic,Gnrc_Name,Aclidinium Bromide,False,388.5963842086203,2
+generic,Gnrc_Name,Acyclovir,False,7.5271967737230625,1405
+generic,Gnrc_Name,Adagrasib,False,18349.639992070755,1
+generic,Gnrc_Name,Adalimumab,False,8494.259918656726,275
+generic,Gnrc_Name,Adalimumab-Adaz,False,1383.3204922920231,1
+generic,Gnrc_Name,Adalimumab-Adbm,False,7546.926873770663,6
+generic,Gnrc_Name,Adalimumab-Atto,False,1217.4546333900912,30
+generic,Gnrc_Name,Adalimumab-Bwwd,False,964.911648564158,1
+generic,Gnrc_Name,Adefovir Dipivoxil,False,572.0079484540779,1
+generic,Gnrc_Name,Afatinib Dimaleate,False,11243.036044550743,1
+generic,Gnrc_Name,Aflibercept,False,2347.656848431745,2
+generic,Gnrc_Name,Albendazole,False,102.87929383043684,1
+generic,Gnrc_Name,Albuterol Sulfate,False,27.86133892660746,5347
+generic,Gnrc_Name,Albuterol Sulfate/Budesonide,False,499.07440092701336,7
+generic,Gnrc_Name,Alcohol Antiseptic Pads,False,-3.359184549650763,100
+generic,Gnrc_Name,Alectinib Hcl,False,17631.261434597945,14
+generic,Gnrc_Name,Alendronate Sodium,False,1.0780083078216194,2898
+generic,Gnrc_Name,Alfuzosin Hcl,False,6.50973924717573,238
+generic,Gnrc_Name,Alirocumab,False,760.6186135104595,165
+generic,Gnrc_Name,Aliskiren Hemifumarate,False,189.78463507069318,1
+generic,Gnrc_Name,Allopurinol,False,4.723087141827818,2978
+generic,Gnrc_Name,Almotriptan Malate,False,245.21919725952557,3
+generic,Gnrc_Name,Alogliptin Benz/Metformin Hcl,False,190.85928554649718,2
+generic,Gnrc_Name,Alogliptin Benzoate,False,198.56084203926548,4
+generic,Gnrc_Name,Alosetron Hcl,False,270.6204159904023,3
+generic,Gnrc_Name,Alpelisib,False,20647.77272178422,1
+generic,Gnrc_Name,Alpha-1-Proteinase Inhibitor,False,10361.657905075386,20
+generic,Gnrc_Name,Alprazolam,False,-2.7338829861355407,2202
+generic,Gnrc_Name,Amantadine Hcl,False,117.70436971240588,180
+generic,Gnrc_Name,Ambrisentan,False,3845.6479615755616,45
+generic,Gnrc_Name,Amifampridine Phosphate,False,44768.70379509475,5
+generic,Gnrc_Name,Amikacin Liposomal/Neb.Accessr,False,15085.008081842238,4
+generic,Gnrc_Name,Amikacin Sulfate,False,95.68104746383005,5
+generic,Gnrc_Name,Amiloride Hcl,False,2.6649725813167606,34
+generic,Gnrc_Name,Amiloride/Hydrochlorothiazide,False,24.059723311622747,7
+generic,Gnrc_Name,Amiodarone Hcl,False,7.641461664047256,505
+generic,Gnrc_Name,Amitriptyline Hcl,False,3.476942632479222,1378
+generic,Gnrc_Name,Amlodipine Bes/Olmesartan Med,False,33.96781258553938,41
+generic,Gnrc_Name,Amlodipine Besylate,False,-1.3141125593156175,5480
+generic,Gnrc_Name,Amlodipine Besylate/Benazepril,False,8.638203519239141,220
+generic,Gnrc_Name,Amlodipine Besylate/Valsartan,False,46.71240171833642,30
+generic,Gnrc_Name,Amlodipine/Atorvastatin,False,146.04856372513404,6
+generic,Gnrc_Name,Amlodipine/Valsartan/Hcthiazid,False,110.58504196371905,1
+generic,Gnrc_Name,Ammonium Lactate,False,21.871101916202406,63
+generic,Gnrc_Name,Amoxicillin,False,2.43783203364319,2907
+generic,Gnrc_Name,Amoxicillin/Potassium Clav,False,5.420616950245858,3184
+generic,Gnrc_Name,Ampicillin Sod/Sulbactam Sod,False,46.77019504898681,5
+generic,Gnrc_Name,Ampicillin Sodium,False,178.4463432277621,10
+generic,Gnrc_Name,Ampicillin Trihydrate,False,18.224089457994523,1
+generic,Gnrc_Name,Anagrelide Hcl,False,200.3387284529772,11
+generic,Gnrc_Name,Anakinra,False,5516.455305430811,3
+generic,Gnrc_Name,Anastrozole,False,19.243193476972465,303
+generic,Gnrc_Name,Apalutamide,False,14366.178686721154,41
+generic,Gnrc_Name,Apixaban,False,994.0882285303851,3970
+generic,Gnrc_Name,Apraclonidine Hcl,False,39.22861747235311,1
+generic,Gnrc_Name,Apremilast,False,4797.969742868181,72
+generic,Gnrc_Name,Aprepitant,False,2755.3437368859477,1
+generic,Gnrc_Name,Arformoterol Tartrate,False,233.026163012104,1
+generic,Gnrc_Name,Aripiprazole,False,246.77179006718598,1208
+generic,Gnrc_Name,Aripiprazole Lauroxil,False,2808.1124619802695,29
+generic,Gnrc_Name,Armodafinil,False,57.20780784637782,50
+generic,Gnrc_Name,Asciminib Hydrochloride,False,19225.215187662918,4
+generic,Gnrc_Name,Asenapine,False,1455.5127179911074,1
+generic,Gnrc_Name,Asenapine Maleate,False,303.2821896589462,39
+generic,Gnrc_Name,Asfotase Alfa,False,121860.87780044592,3
+generic,Gnrc_Name,Aspirin/Dipyridamole,False,143.37332138329884,5
+generic,Gnrc_Name,Atazanavir Sulfate,False,549.5350773906416,5
+generic,Gnrc_Name,Atazanavir Sulfate/Cobicistat,False,1501.8808192311797,1
+generic,Gnrc_Name,Atenolol,False,0.2522928537846383,1771
+generic,Gnrc_Name,Atenolol/Chlorthalidone,False,29.99731854173251,9
+generic,Gnrc_Name,Atogepant,False,1183.5215892855995,96
+generic,Gnrc_Name,Atomoxetine Hcl,False,77.25393046044883,116
+generic,Gnrc_Name,Atorvastatin Calcium,False,0.8704315708705508,6132
+generic,Gnrc_Name,Atovaquone,False,633.3339769044774,10
+generic,Gnrc_Name,Atovaquone/Proguanil Hcl,False,79.30996711598527,20
+generic,Gnrc_Name,Atropine Sulfate,False,18.03253903149107,82
+generic,Gnrc_Name,Avalglucosidase Alfa-Ngpt,False,67328.62638605578,1
+generic,Gnrc_Name,Avapritinib,False,37037.403471397316,4
+generic,Gnrc_Name,Avatrombopag Maleate,False,14350.842860655177,3
+generic,Gnrc_Name,Axitinib,False,15222.136603396828,6
+generic,Gnrc_Name,Azacitidine,False,25577.552371684807,1
+generic,Gnrc_Name,Azathioprine,False,28.502398608988642,210
+generic,Gnrc_Name,Azelaic Acid,False,111.3665598135567,6
+generic,Gnrc_Name,Azelastine Hcl,False,33.10392498038527,680
+generic,Gnrc_Name,Azelastine/Fluticasone,False,144.72479420991158,17
+generic,Gnrc_Name,Azilsartan Medoxomil,False,392.66543528989087,2
+generic,Gnrc_Name,Azithromycin,False,-1.9406943732515174,2149
+generic,Gnrc_Name,Aztreonam Lysine,False,11842.396420256784,3
+generic,Gnrc_Name,Bacitracin,False,45.45676411880504,1
+generic,Gnrc_Name,Bacitracin/Polymyxin B Sulfate,False,-5.570315890135589,7
+generic,Gnrc_Name,Baclofen,False,8.028349325944419,1523
+generic,Gnrc_Name,Balsalazide Disodium,False,128.92856477342866,28
+generic,Gnrc_Name,Baricitinib,False,2714.4809790093736,5
+generic,Gnrc_Name,Beclomethasone Dipropionate,False,343.33527858768093,63
+generic,Gnrc_Name,Belimumab,False,4942.359640588145,22
+generic,Gnrc_Name,Belumosudil Mesylate,False,23702.244671346947,7
+generic,Gnrc_Name,Belzutifan,False,18088.60510100322,2
+generic,Gnrc_Name,Bempedoic Acid,False,709.8589286214906,17
+generic,Gnrc_Name,Bempedoic Acid/Ezetimibe,False,687.4649972203838,19
+generic,Gnrc_Name,Benazepril Hcl,False,2.8972494131835447,416
+generic,Gnrc_Name,Benazepril/Hydrochlorothiazide,False,27.513982656646476,17
+generic,Gnrc_Name,Benralizumab,False,5772.752139981678,22
+generic,Gnrc_Name,Benzonatate,False,19.636273383149728,2
+generic,Gnrc_Name,Benztropine Mesylate,False,2.4650080235587666,336
+generic,Gnrc_Name,Berotralstat Hydrochloride,False,43904.39509651636,2
+generic,Gnrc_Name,Besifloxacin Hcl,False,180.7594149446213,1
+generic,Gnrc_Name,Betamethasone Dipropionate,False,48.389864243190004,83
+generic,Gnrc_Name,Betamethasone Valerate,False,29.86363904547852,18
+generic,Gnrc_Name,Betamethasone/Propylene Glyc,False,31.75716005291042,74
+generic,Gnrc_Name,Betaxolol Hcl,False,37.23832226984541,3
+generic,Gnrc_Name,Bethanechol Chloride,False,48.127688842213956,17
+generic,Gnrc_Name,Bexarotene,False,2231.2960258343664,2
+generic,Gnrc_Name,Bicalutamide,False,24.738107205039796,31
+generic,Gnrc_Name,Bictegrav/Emtricit/Tenofov Ala,False,4291.244961397605,116
+generic,Gnrc_Name,Bimatoprost,False,430.1195588452333,237
+generic,Gnrc_Name,Binimetinib,False,11832.605652243948,3
+generic,Gnrc_Name,Bisoprolol Fumarate,False,13.792510915219736,232
+generic,Gnrc_Name,Bisoprolol/Hydrochlorothiazide,False,21.93109932467678,50
+generic,Gnrc_Name,"Bolus Insulin Pump, 200 Unit",False,486.33001404745573,2
+generic,Gnrc_Name,Bortezomib,False,176.2229208008839,1
+generic,Gnrc_Name,Bosentan,False,4487.049993115961,9
+generic,Gnrc_Name,Bosutinib,False,14873.937370475702,4
+generic,Gnrc_Name,Brexpiprazole,False,1507.4795842069389,152
+generic,Gnrc_Name,Brigatinib,False,17128.41890934032,7
+generic,Gnrc_Name,Brimonidine Tartrate,False,42.83158174151595,464
+generic,Gnrc_Name,Brimonidine Tartrate/Timolol,False,216.50989031660902,258
+generic,Gnrc_Name,Brinzolamide,False,154.14564648797432,31
+generic,Gnrc_Name,Brinzolamide/Brimonidine Tart,False,256.24923525358145,73
+generic,Gnrc_Name,Brivaracetam,False,1619.5584223531512,56
+generic,Gnrc_Name,Brodalumab,False,5036.622319569018,1
+generic,Gnrc_Name,Bromfenac Sodium,False,245.66825293375769,20
+generic,Gnrc_Name,Bromocriptine Mesylate,False,108.94602145776025,5
+generic,Gnrc_Name,Budesonide,False,138.59932091368364,254
+generic,Gnrc_Name,Budesonide/Formoterol Fumarate,False,309.28735249992224,1249
+generic,Gnrc_Name,Budesonide/Glycopyr/Formoterol,False,822.6465995114404,312
+generic,Gnrc_Name,Bumetanide,False,29.52912954059957,619
+generic,Gnrc_Name,Bupivacaine Hcl/Pf,False,8.771299004251432,1
+generic,Gnrc_Name,Buprenorphine,False,331.38743083476993,378
+generic,Gnrc_Name,Buprenorphine Hcl,False,393.36964823748167,342
+generic,Gnrc_Name,Buprenorphine Hcl/Naloxone Hcl,False,204.0674084486859,430
+generic,Gnrc_Name,Bupropion Hbr,False,4052.4380111182263,2
+generic,Gnrc_Name,Bupropion Hcl,False,23.339251118120956,3823
+generic,Gnrc_Name,Burosumab-Twza,False,31936.402568893067,3
+generic,Gnrc_Name,Buspirone Hcl,False,8.165140828873518,1979
+generic,Gnrc_Name,Butalb/Acetaminophen/Caffeine,False,24.981335845577178,235
+generic,Gnrc_Name,Butalbit/Acetamin/Caff/Codeine,False,126.08131169967055,26
+generic,Gnrc_Name,Butalbital/Acetaminophen,False,91.60368212186677,1
+generic,Gnrc_Name,Butalbital/Aspirin/Caffeine,False,47.88471298340437,18
+generic,Gnrc_Name,Butorphanol Tartrate,False,134.72794839730477,12
+generic,Gnrc_Name,C1 Esterase Inhibitor,False,22820.949000786302,2
+generic,Gnrc_Name,"C1 Esterase Inhibitor, Recomb",False,100937.71232543749,3
+generic,Gnrc_Name,Cabergoline,False,20.4339670294612,25
+generic,Gnrc_Name,Cabotegravir/Rilpivirine,False,5866.038157081062,2
+generic,Gnrc_Name,Cabozantinib S-Malate,False,22749.966294440095,14
+generic,Gnrc_Name,Calcifediol,False,1458.1275745220369,1
+generic,Gnrc_Name,Calcipotriene,False,152.5117488789724,44
+generic,Gnrc_Name,"Calcitonin,salmon,synthetic",False,61.298607790685764,40
+generic,Gnrc_Name,Calcitriol,False,7.02658691893248,229
+generic,Gnrc_Name,Calcium Acetate,False,85.90026822770096,85
+generic,Gnrc_Name,Canagliflozin,False,828.5220820866916,78
+generic,Gnrc_Name,Canagliflozin/Metformin Hcl,False,875.6809079148643,3
+generic,Gnrc_Name,Canakinumab/Pf,False,40272.31851723925,2
+generic,Gnrc_Name,Candesartan Cilexetil,False,64.11146014340193,52
+generic,Gnrc_Name,Candesartan/Hydrochlorothiazid,False,104.15591540511923,5
+generic,Gnrc_Name,Cannabidiol (Cbd),False,4386.896767353957,26
+generic,Gnrc_Name,Capecitabine,False,70.02196089081417,1
+generic,Gnrc_Name,Capivasertib,False,22421.601889748556,1
+generic,Gnrc_Name,Capmatinib Hydrochloride,False,20210.093096583532,4
+generic,Gnrc_Name,Captopril,False,36.7319081667365,2
+generic,Gnrc_Name,Carbamazepine,False,65.46320782911198,477
+generic,Gnrc_Name,Carbidopa,False,189.07275600643106,12
+generic,Gnrc_Name,Carbidopa/Levodopa,False,127.95839784373447,870
+generic,Gnrc_Name,Carbidopa/Levodopa/Entacapone,False,153.3038957532499,9
+generic,Gnrc_Name,Cariprazine Hcl,False,1451.3376724722561,255
+generic,Gnrc_Name,Carisoprodol,False,3.611587861422322,155
+generic,Gnrc_Name,Carteolol Hcl,False,-19.166632150585883,1
+generic,Gnrc_Name,Carvedilol,False,-0.19857756758210598,3040
+generic,Gnrc_Name,Carvedilol Phosphate,False,230.94249747100594,13
+generic,Gnrc_Name,Caspofungin Acetate,False,268.4485982071992,1
+generic,Gnrc_Name,Cefaclor,False,42.995866783389374,1
+generic,Gnrc_Name,Cefadroxil,False,13.482937535777182,126
+generic,Gnrc_Name,Cefazolin Sodium,False,50.361833839466726,33
+generic,Gnrc_Name,Cefdinir,False,13.529104591294526,366
+generic,Gnrc_Name,Cefepime Hcl,False,139.34835158954638,8
+generic,Gnrc_Name,Cefixime,False,69.38115526739375,3
+generic,Gnrc_Name,Cefpodoxime Proxetil,False,50.11782359473773,101
+generic,Gnrc_Name,Cefprozil,False,175.25393690584588,1
+generic,Gnrc_Name,Ceftolozane/Tazobactam,False,4009.3762726123377,1
+generic,Gnrc_Name,Ceftriaxone In Is-Osm Dextrose,False,140.72925603936255,2
+generic,Gnrc_Name,Ceftriaxone Sodium,False,45.432088079459845,64
+generic,Gnrc_Name,Cefuroxime Axetil,False,10.714525696469991,745
+generic,Gnrc_Name,Celecoxib,False,25.149349808718398,2285
+generic,Gnrc_Name,Cenegermin-Bkbj,False,36703.80044139705,7
+generic,Gnrc_Name,Cenobamate,False,1460.501240198581,37
+generic,Gnrc_Name,Cephalexin,False,3.4388692542406716,2941
+generic,Gnrc_Name,Certolizumab Pegol,False,6507.155290722258,17
+generic,Gnrc_Name,Cetirizine Hcl,False,136.62468403420098,1
+generic,Gnrc_Name,Cevimeline Hcl,False,141.37045214683258,41
+generic,Gnrc_Name,"Chikungunya Vaccine, Live/Pf",False,298.5239055516977,1
+generic,Gnrc_Name,Chlordiazepoxide Hcl,False,8.992130830165479,9
+generic,Gnrc_Name,Chlordiazepoxide/Clidinium Br,False,46.434116399605955,3
+generic,Gnrc_Name,Chlorhexidine Gluconate,False,7.351249082130835,643
+generic,Gnrc_Name,Chloroquine Phosphate,False,91.82058406865735,2
+generic,Gnrc_Name,Chlorpromazine Hcl,False,160.98873695772727,45
+generic,Gnrc_Name,Chlorthalidone,False,5.7273984810731235,939
+generic,Gnrc_Name,Chlorzoxazone,False,1.7332121031959105,10
+generic,Gnrc_Name,Cholestyramine,False,74.18594662387113,33
+generic,Gnrc_Name,Cholestyramine (With Sugar),False,65.18773669645452,158
+generic,Gnrc_Name,Cholic Acid,False,111871.51876180351,1
+generic,Gnrc_Name,Ciclesonide,False,186.63623910758997,279
+generic,Gnrc_Name,Ciclopirox,False,30.35711550044971,145
+generic,Gnrc_Name,Ciclopirox Olamine,False,24.312276956983624,59
+generic,Gnrc_Name,Cilostazol,False,19.65299058689743,69
+generic,Gnrc_Name,Cimetidine,False,42.377093453541875,16
+generic,Gnrc_Name,Cinacalcet Hcl,False,162.86843077272397,85
+generic,Gnrc_Name,Ciprofloxacin Hcl,False,-0.41084326540158145,810
+generic,Gnrc_Name,Ciprofloxacin Hcl/Dexameth,False,115.78959051934407,47
+generic,Gnrc_Name,Citalopram Hydrobromide,False,0.5027420981500654,2528
+generic,Gnrc_Name,Citric Ac/Gluconolact/Mag Carb,False,226.66407906181576,4
+generic,Gnrc_Name,Clarithromycin,False,23.190896615209112,11
+generic,Gnrc_Name,Clascoterone,False,590.9761215318536,1
+generic,Gnrc_Name,Clemastine Fumarate,False,15.253482092191462,2
+generic,Gnrc_Name,Clindamycin Hcl,False,8.249107686754087,423
+generic,Gnrc_Name,Clindamycin Phos/Benzoyl Perox,False,61.92646259389039,8
+generic,Gnrc_Name,Clindamycin Phosphate,False,37.775345013835704,220
+generic,Gnrc_Name,Clobazam,False,269.03759896067913,74
+generic,Gnrc_Name,Clobetasol Propionate,False,35.14777815625803,755
+generic,Gnrc_Name,Clobetasol Propionate/Emoll,False,42.580841700284054,2
+generic,Gnrc_Name,Clomipramine Hcl,False,82.62148636652546,32
+generic,Gnrc_Name,Clonazepam,False,-4.738883773414273,2166
+generic,Gnrc_Name,Clonidine,False,118.48947363197112,73
+generic,Gnrc_Name,Clonidine Hcl,False,-3.9460044552924955,728
+generic,Gnrc_Name,Clopidogrel Bisulfate,False,3.6716921528745843,2574
+generic,Gnrc_Name,Clorazepate Dipotassium,False,67.26317752262685,25
+generic,Gnrc_Name,Clotrimazole,False,21.7838200290621,75
+generic,Gnrc_Name,Clotrimazole/Betamethasone Dip,False,15.627009418591115,163
+generic,Gnrc_Name,Clozapine,False,114.98674307924693,348
+generic,Gnrc_Name,Cobicistat,False,505.50541614255644,2
+generic,Gnrc_Name,Cobimetinib Fumarate,False,8156.795285024107,1
+generic,Gnrc_Name,Codeine Sulfate,False,89.94456483360909,6
+generic,Gnrc_Name,Codeine/Butalbital/Asa/Caffein,False,150.57859324545643,9
+generic,Gnrc_Name,Colchicine,False,43.80963990402506,388
+generic,Gnrc_Name,Colesevelam Hcl,False,112.00816341286009,55
+generic,Gnrc_Name,Colestipol Hcl,False,62.380401920480836,131
+generic,Gnrc_Name,Colistin (Colistimethate Na),False,439.5143371083486,4
+generic,Gnrc_Name,Collagenase Clostridium Hist.,False,501.57928699424747,13
+generic,Gnrc_Name,Corticotropin,False,46341.40829391814,1
+generic,Gnrc_Name,Crizotinib,False,21067.295641911624,1
+generic,Gnrc_Name,Cromolyn Sodium,False,188.37518238349685,20
+generic,Gnrc_Name,Cyanocobalamin (Vitamin B-12),False,-2.1307856630601236,47
+generic,Gnrc_Name,Cyclobenzaprine Hcl,False,2.071364081206866,2553
+generic,Gnrc_Name,Cyclosporine,False,731.3280507963291,541
+generic,Gnrc_Name,"Cyclosporine, Modified",False,148.93942829882326,11
+generic,Gnrc_Name,Cyproheptadine Hcl,False,7.684746100944267,42
+generic,Gnrc_Name,Dabigatran Etexilate Mesylate,False,226.4330051420875,574
+generic,Gnrc_Name,Dabrafenib Mesylate,False,12897.89241110181,6
+generic,Gnrc_Name,Dalfampridine,False,603.3127149685861,65
+generic,Gnrc_Name,"Dalteparin Sodium,porcine",False,4046.564135213505,1
+generic,Gnrc_Name,Dantrolene Sodium,False,75.5725049368998,13
+generic,Gnrc_Name,Dapaglifloz Propaned/Metformin,False,811.389138363912,18
+generic,Gnrc_Name,Dapagliflozin Propanediol,False,967.3330695159643,1152
+generic,Gnrc_Name,Dapsone,False,77.17592692957032,29
+generic,Gnrc_Name,Daptomycin,False,557.090174633976,44
+generic,Gnrc_Name,Darbepoetin Alfa In Polysorbat,False,2436.5305379523497,2
+generic,Gnrc_Name,Daridorexant Hcl,False,552.3945634714237,27
+generic,Gnrc_Name,Darifenacin Hydrobromide,False,119.07813398807184,6
+generic,Gnrc_Name,Darolutamide,False,13104.985584858903,34
+generic,Gnrc_Name,Darunavir,False,875.8243436779635,23
+generic,Gnrc_Name,Darunavir/Cob/Emtri/Tenof Alaf,False,4639.322203843884,21
+generic,Gnrc_Name,Darunavir/Cobicistat,False,2291.3537380895605,27
+generic,Gnrc_Name,Dasatinib,False,12174.417995829655,19
+generic,Gnrc_Name,Decitabine/Cedazuridine,False,5815.176469528275,6
+generic,Gnrc_Name,Deferasirox,False,2800.692114213416,6
+generic,Gnrc_Name,Deferiprone,False,4884.183681537073,1
+generic,Gnrc_Name,Deflazacort,False,16491.032781097627,1
+generic,Gnrc_Name,Demeclocycline Hcl,False,435.4491752019785,2
+generic,Gnrc_Name,Denosumab,False,1788.2748998562718,83
+generic,Gnrc_Name,Desipramine Hcl,False,38.868182568551674,9
+generic,Gnrc_Name,Desloratadine,False,64.28417920802622,10
+generic,Gnrc_Name,Desmopressin (Nonrefrigerated),False,51.69276265472445,8
+generic,Gnrc_Name,Desmopressin Acetate,False,49.14038435591874,72
+generic,Gnrc_Name,Desonide,False,53.02651219783047,37
+generic,Gnrc_Name,Desvenlafaxine,False,106.95218491416881,1
+generic,Gnrc_Name,Desvenlafaxine Succinate,False,57.28572236863056,323
+generic,Gnrc_Name,Deutetrabenazine,False,7412.302843611817,110
+generic,Gnrc_Name,Dexamethasone,False,10.724955676057562,535
+generic,Gnrc_Name,Dexamethasone Sodium Phosphate,False,17.492877919420607,11
+generic,Gnrc_Name,Dexlansoprazole,False,272.3389866687721,156
+generic,Gnrc_Name,Dexmethylphenidate Hcl,False,62.69315796768251,32
+generic,Gnrc_Name,Dextroamphetamine Sulfate,False,61.998554213182615,74
+generic,Gnrc_Name,Dextroamphetamine/Amphetamine,False,37.23660223248089,1070
+generic,Gnrc_Name,Dextromethorphan Hbr/Bupropion,False,1060.0951063157595,14
+generic,Gnrc_Name,Dextromethorphan Hbr/Quinidine,False,1344.447999182823,46
+generic,Gnrc_Name,Dextrose 5 % In Water,False,18.250658047612433,3
+generic,Gnrc_Name,Dextrose 5 %-0.45 % Sod Chlord,False,30.524315425524946,1
+generic,Gnrc_Name,Diazepam,False,-4.380023094726766,1260
+generic,Gnrc_Name,Diclofenac Epolamine,False,533.5673025485435,5
+generic,Gnrc_Name,Diclofenac Potassium,False,165.70486039184334,30
+generic,Gnrc_Name,Diclofenac Sodium,False,28.038713605171324,1508
+generic,Gnrc_Name,Diclofenac Sodium/Misoprostol,False,120.56859389544707,2
+generic,Gnrc_Name,Dicloxacillin Sodium,False,28.7759688500214,20
+generic,Gnrc_Name,Dicyclomine Hcl,False,9.846968204956283,626
+generic,Gnrc_Name,Diflunisal,False,23.685241646027407,4
+generic,Gnrc_Name,Difluprednate,False,99.50481653096676,31
+generic,Gnrc_Name,Digoxin,False,10.282813447609442,352
+generic,Gnrc_Name,Dihydroergotamine Mesylate,False,716.8001517813141,4
+generic,Gnrc_Name,Diltiazem Hcl,False,20.475621734122342,1386
+generic,Gnrc_Name,Dimethyl Fumarate,False,2110.026698750358,43
+generic,Gnrc_Name,"Diph,pertuss(Acell),tet Vac/Pf",False,49.471707152509225,351
+generic,Gnrc_Name,Diphenhydramine Hcl,False,31.424810331012395,24
+generic,Gnrc_Name,Diphenoxylate Hcl/Atropine,False,16.71770882390865,187
+generic,Gnrc_Name,"Diphth,pertuss(Acell),tet Vac",False,57.95980339474454,190
+generic,Gnrc_Name,Diroximel Fumarate,False,9101.037594887364,12
+generic,Gnrc_Name,Disopyramide Phosphate,False,243.83117319452276,1
+generic,Gnrc_Name,Disulfiram,False,71.13059103869227,11
+generic,Gnrc_Name,Divalproex Sodium,False,34.583075642208314,1107
+generic,Gnrc_Name,Dofetilide,False,116.6615315423719,89
+generic,Gnrc_Name,Dolutegravir Sodium,False,2388.5921171900864,72
+generic,Gnrc_Name,Dolutegravir Sodium/Lamivudine,False,2958.2144782894056,44
+generic,Gnrc_Name,Dolutegravir/Rilpivirine,False,3340.3311460921004,32
+generic,Gnrc_Name,Donepezil Hcl,False,0.9750952365006924,1504
+generic,Gnrc_Name,Doravirine,False,1797.4380630274047,16
+generic,Gnrc_Name,Doravirine/Lamivu/Tenofov Diso,False,2382.2051208267612,5
+generic,Gnrc_Name,Dorzolamide Hcl,False,-3.5337581106696234,213
+generic,Gnrc_Name,Dorzolamide Hcl/Timolol Maleat,False,-6.062189181837766,409
+generic,Gnrc_Name,Dorzolamide/Timolol/Pf,False,150.97371351888842,54
+generic,Gnrc_Name,Doxazosin Mesylate,False,7.696797065359078,725
+generic,Gnrc_Name,Doxepin Hcl,False,36.03602840387521,346
+generic,Gnrc_Name,Doxycycline Hyclate,False,9.892499734406556,2216
+generic,Gnrc_Name,Doxycycline Monohydrate,False,23.3608849848938,568
+generic,Gnrc_Name,Dronedarone Hcl,False,1438.808287866253,71
+generic,Gnrc_Name,Drospirenone,False,213.1275246873688,1
+generic,Gnrc_Name,Droxidopa,False,747.7007878213526,16
+generic,Gnrc_Name,Dulaglutide,False,1276.2741888545825,1637
+generic,Gnrc_Name,Duloxetine Hcl,False,16.267135025077096,3978
+generic,Gnrc_Name,Dupilumab,False,3982.1001938740133,358
+generic,Gnrc_Name,Dutasteride,False,23.628734730589713,210
+generic,Gnrc_Name,Dutasteride/Tamsulosin Hcl,False,111.61182162482555,8
+generic,Gnrc_Name,Econazole Nitrate,False,35.50900637986206,11
+generic,Gnrc_Name,Edaravone,False,13547.729376471842,12
+generic,Gnrc_Name,Edoxaban Tosylate,False,486.66368650464847,5
+generic,Gnrc_Name,Efavirenz,False,402.5707995472021,5
+generic,Gnrc_Name,Efavirenz/Emtricit/Tenofovr Df,False,290.05787769589597,7
+generic,Gnrc_Name,Efgartigimod-Hyaluronidas-Qvfc,False,57267.1311906904,1
+generic,Gnrc_Name,Efinaconazole,False,1069.4214412381443,17
+generic,Gnrc_Name,Elacestrant Hcl,False,23147.312376737525,5
+generic,Gnrc_Name,Eletriptan Hydrobromide,False,104.6339026818232,24
+generic,Gnrc_Name,Elexacaftor/Tezacaftor/Ivacaft,False,27685.388505697312,8
+generic,Gnrc_Name,Eliglustat Tartrate,False,32879.58033918447,1
+generic,Gnrc_Name,Eltrombopag Choline,False,6831.591681537075,1
+generic,Gnrc_Name,Eltrombopag Olamine,False,14092.87046530565,14
+generic,Gnrc_Name,Eluxadoline,False,1565.08538499608,13
+generic,Gnrc_Name,Elviteg/Cob/Emtri/Tenof Alafen,False,4553.213926501638,39
+generic,Gnrc_Name,Empaglifloz/Linaglip/Metformin,False,1251.3321175509122,1
+generic,Gnrc_Name,Empagliflozin,False,1047.4778150468696,2922
+generic,Gnrc_Name,Empagliflozin/Linagliptin,False,744.3603985160025,3
+generic,Gnrc_Name,Empagliflozin/Metformin Hcl,False,1018.346148395512,35
+generic,Gnrc_Name,Emtricita/Rilpivirine/Tenof Df,False,3194.5252192311796,1
+generic,Gnrc_Name,Emtricitab/Rilpiviri/Tenof Ala,False,3887.4542740592606,29
+generic,Gnrc_Name,Emtricitabine,False,443.66218531904815,2
+generic,Gnrc_Name,Emtricitabine/Tenofov Alafenam,False,2188.08615545491,75
+generic,Gnrc_Name,Emtricitabine/Tenofovir (Tdf),False,254.31291498031078,16
+generic,Gnrc_Name,Enalapril Maleate,False,8.897194738683993,208
+generic,Gnrc_Name,Enasidenib Mesylate,False,34153.40390758593,2
+generic,Gnrc_Name,Encorafenib,False,13265.952136935286,4
+generic,Gnrc_Name,Enoxaparin Sodium,False,146.89016405933626,168
+generic,Gnrc_Name,Entacapone,False,104.49770294521386,30
+generic,Gnrc_Name,Entecavir,False,120.63491948133515,25
+generic,Gnrc_Name,Entrectinib,False,14539.537254154267,1
+generic,Gnrc_Name,Enzalutamide,False,13035.281456939138,79
+generic,Gnrc_Name,Epinastine Hcl,False,87.87556072573534,7
+generic,Gnrc_Name,Epinephrine,False,273.5215171505797,64
+generic,Gnrc_Name,Eplerenone,False,74.13019014768133,107
+generic,Gnrc_Name,Epoetin Alfa,False,1189.9274531216479,17
+generic,Gnrc_Name,Epoetin Alfa-Epbx,False,253.6940461230315,3
+generic,Gnrc_Name,Erenumab-Aooe,False,835.5629328691157,159
+generic,Gnrc_Name,Ergocalciferol (Vitamin D2),False,2.8615318859642684,241
+generic,Gnrc_Name,Ergotamine Tartrate/Caffeine,False,1859.4598789920524,3
+generic,Gnrc_Name,Erlotinib Hcl,False,395.00749998499623,2
+generic,Gnrc_Name,Ertapenem Sodium,False,262.900405178224,29
+generic,Gnrc_Name,Ertugliflozin Pidolate,False,369.930348669674,2
+generic,Gnrc_Name,Erythromycin Base,False,4.214833338266999,301
+generic,Gnrc_Name,Erythromycin Base In Ethanol,False,31.950836021978375,2
+generic,Gnrc_Name,Erythromycin Ethylsuccinate,False,190.74512270370906,2
+generic,Gnrc_Name,Erythromycin/Benzoyl Peroxide,False,175.27437578476338,2
+generic,Gnrc_Name,Escitalopram Oxalate,False,3.5797095647208153,3445
+generic,Gnrc_Name,Esketamine Hcl,False,1385.772789624245,14
+generic,Gnrc_Name,Eslicarbazepine Acetate,False,1575.2299687032437,19
+generic,Gnrc_Name,Esomeprazole Magnesium,False,42.477629808449365,742
+generic,Gnrc_Name,Estazolam,False,39.44313960390855,2
+generic,Gnrc_Name,Estradiol,False,64.94192057555074,2643
+generic,Gnrc_Name,Estradiol Valerate,False,55.04515381878582,2
+generic,Gnrc_Name,Estradiol/Levonorgestrel,False,236.42496186584685,2
+generic,Gnrc_Name,Estradiol/Norethindrone Acet,False,157.11950375578272,9
+generic,Gnrc_Name,"Estrogen,con/M-Progest Acet",False,284.9725121571928,14
+generic,Gnrc_Name,"Estrogens, Conjugated",False,376.06793189212794,141
+generic,Gnrc_Name,"Estrogens,esterified",False,126.07484318080697,1
+generic,Gnrc_Name,Eszopiclone,False,14.500557906643735,506
+generic,Gnrc_Name,Etanercept,False,7465.185532865873,148
+generic,Gnrc_Name,Eteplirsen,False,70707.9544730463,1
+generic,Gnrc_Name,Ethacrynic Acid,False,289.8391925959313,6
+generic,Gnrc_Name,Ethambutol Hcl,False,56.11902484901793,18
+generic,Gnrc_Name,Ethinyl Estradiol/Drospirenone,False,7.525619682395245,6
+generic,Gnrc_Name,Ethosuximide,False,30.495986609539614,3
+generic,Gnrc_Name,Etodolac,False,34.40469188218958,42
+generic,Gnrc_Name,Etravirine,False,1080.2247909211678,10
+generic,Gnrc_Name,Everolimus,False,6922.887918257179,23
+generic,Gnrc_Name,Evolocumab,False,811.0667489134703,659
+generic,Gnrc_Name,Exemestane,False,132.49045827991722,75
+generic,Gnrc_Name,Exenatide,False,831.1057051893608,2
+generic,Gnrc_Name,Exenatide Microspheres,False,870.5643048893353,43
+generic,Gnrc_Name,Ezetimibe,False,10.73894017334078,2046
+generic,Gnrc_Name,Ezetimibe/Simvastatin,False,81.60042807073069,15
+generic,Gnrc_Name,Famciclovir,False,47.07651850927323,24
+generic,Gnrc_Name,Famotidine,False,8.232521139381333,2805
+generic,Gnrc_Name,Famotidine/Pf,False,11.36073180848416,3
+generic,Gnrc_Name,Faricimab-Svoa,False,2780.935160887114,1
+generic,Gnrc_Name,Fat Emulsion/Olive/Soy/Phospho,False,230.22522527871888,5
+generic,Gnrc_Name,Febuxostat,False,90.77898136468912,58
+generic,Gnrc_Name,Felbamate,False,451.48416290988825,22
+generic,Gnrc_Name,Felodipine,False,17.453759792393157,41
+generic,Gnrc_Name,Fenfluramine Hcl,False,11158.705311933689,2
+generic,Gnrc_Name,Fenofibrate,False,18.34653991184223,483
+generic,Gnrc_Name,Fenofibrate Nanocrystallized,False,19.09728728450591,304
+generic,Gnrc_Name,"Fenofibrate,micronized",False,15.887568123423534,67
+generic,Gnrc_Name,Fenofibric Acid (Choline),False,41.549637073561826,10
+generic,Gnrc_Name,Fentanyl,False,122.25728105481312,368
+generic,Gnrc_Name,Fentanyl Citrate,False,2436.1613628198725,1
+generic,Gnrc_Name,Ferric Citrate,False,1310.8961673076824,10
+generic,Gnrc_Name,Fesoterodine Fumarate,False,103.37149577941682,40
+generic,Gnrc_Name,Fezolinetant,False,650.0156008262265,17
+generic,Gnrc_Name,Filgrastim,False,2815.4772672387603,1
+generic,Gnrc_Name,Filgrastim-Aafi,False,930.2064994920943,25
+generic,Gnrc_Name,Filgrastim-Sndz,False,1893.9778694675138,3
+generic,Gnrc_Name,Finasteride,False,6.522131277540666,2178
+generic,Gnrc_Name,Finerenone,False,1023.6460076012372,39
+generic,Gnrc_Name,Fingolimod Hcl,False,1246.6634356597897,18
+generic,Gnrc_Name,Flavoxate Hcl,False,32.43613636434338,1
+generic,Gnrc_Name,Flecainide Acetate,False,18.375344285782376,280
+generic,Gnrc_Name,Fluconazole,False,5.026360909171217,821
+generic,Gnrc_Name,Fludrocortisone Acetate,False,-11.30825990556923,110
+generic,Gnrc_Name,Flunisolide,False,47.90377162763298,8
+generic,Gnrc_Name,Fluocinolone Acetonide,False,61.99719094616512,22
+generic,Gnrc_Name,Fluocinolone Acetonide Oil,False,41.51235804882663,26
+generic,Gnrc_Name,Fluocinolone/Shower Cap,False,48.40814149865537,9
+generic,Gnrc_Name,Fluocinonide,False,42.43937081904505,192
+generic,Gnrc_Name,Fluocinonide/Emollient Base,False,14.883734460544474,1
+generic,Gnrc_Name,Fluoride (Sodium),False,13.893443438450504,80
+generic,Gnrc_Name,Fluorometholone,False,66.67045276927456,174
+generic,Gnrc_Name,Fluorometholone Acetate,False,102.7279587178873,5
+generic,Gnrc_Name,Fluorouracil,False,70.89217742386927,294
+generic,Gnrc_Name,Fluoxetine Hcl,False,6.059079734086481,3024
+generic,Gnrc_Name,Fluphenazine Decanoate,False,74.2728063675645,21
+generic,Gnrc_Name,Fluphenazine Hcl,False,117.46333371611718,54
+generic,Gnrc_Name,Flurandrenolide,False,805.9671549283789,2
+generic,Gnrc_Name,Flurbiprofen,False,82.93239392328724,1
+generic,Gnrc_Name,Fluticasone Furoate,False,309.91237203769606,208
+generic,Gnrc_Name,Fluticasone Propion/Salmeterol,False,234.44638389273632,2316
+generic,Gnrc_Name,Fluticasone Propionate,False,20.646565394132267,2963
+generic,Gnrc_Name,Fluticasone/Umeclidin/Vilanter,False,898.7103873393835,1143
+generic,Gnrc_Name,Fluticasone/Vilanterol,False,524.8763548066859,635
+generic,Gnrc_Name,Fluvastatin Sodium,False,134.21617457801722,7
+generic,Gnrc_Name,Fluvoxamine Maleate,False,45.275990191235906,111
+generic,Gnrc_Name,Folic Acid,False,5.339615242463424,156
+generic,Gnrc_Name,Fondaparinux Sodium,False,1050.807995889637,5
+generic,Gnrc_Name,Formoterol Fumarate,False,350.67649629910284,1
+generic,Gnrc_Name,Fosfomycin Tromethamine,False,208.2628344596069,17
+generic,Gnrc_Name,Fosinopril Sodium,False,3.6799454696015346,19
+generic,Gnrc_Name,Fosinopril/Hydrochlorothiazide,False,33.888055935836746,1
+generic,Gnrc_Name,Fostamatinib Disodium,False,13888.979006798214,2
+generic,Gnrc_Name,Fostemsavir Tromethamine,False,7595.808408623961,4
+generic,Gnrc_Name,Fremanezumab-Vfrm,False,710.7145766591325,85
+generic,Gnrc_Name,Frovatriptan Succinate,False,143.91034475930746,7
+generic,Gnrc_Name,Fruquintinib,False,25845.1052861884,1
+generic,Gnrc_Name,Furosemide,False,-2.6850237953108262,4310
+generic,Gnrc_Name,Gabapentin,False,10.470087054022315,6460
+generic,Gnrc_Name,Gabapentin Enacarbil,False,1045.6597986326265,10
+generic,Gnrc_Name,Galantamine Hbr,False,48.0696461492812,23
+generic,Gnrc_Name,Galcanezumab-Gnlm,False,912.1231173628416,177
+generic,Gnrc_Name,Ganciclovir,False,518.4219793044695,4
+generic,Gnrc_Name,Gatifloxacin,False,6.4419030076937815,1
+generic,Gnrc_Name,Gemfibrozil,False,12.233223385456313,167
+generic,Gnrc_Name,Gentamicin Sulfate,False,27.586530632577706,37
+generic,Gnrc_Name,Gilteritinib Fumarate,False,21349.317251380053,6
+generic,Gnrc_Name,Glatiramer Acetate,False,3452.672543160038,43
+generic,Gnrc_Name,Glimepiride,False,-2.6079752513587664,535
+generic,Gnrc_Name,Glipizide,False,3.3186074048026057,2118
+generic,Gnrc_Name,Glipizide/Metformin Hcl,False,31.32270305140355,8
+generic,Gnrc_Name,Glucagon,False,405.0296642388621,39
+generic,Gnrc_Name,Glucagon Hcl,False,315.06048938205686,1
+generic,Gnrc_Name,Glyburide,False,14.457853412033728,30
+generic,Gnrc_Name,Glycopyrrolate,False,28.408484613728888,61
+generic,Gnrc_Name,Glycopyrrolate/Formoterol Fum,False,478.7836993037613,41
+generic,Gnrc_Name,Golimumab,False,6728.267050935023,18
+generic,Gnrc_Name,Granisetron Hcl,False,116.88361000638679,2
+generic,Gnrc_Name,Griseofulvin Ultramicrosize,False,143.7117074998614,1
+generic,Gnrc_Name,Guanfacine Hcl,False,26.295364235661054,121
+generic,Gnrc_Name,Guselkumab,False,14557.80150301929,3
+generic,Gnrc_Name,Haemoph B Poly Conj-Tet Tox/Pf,False,7.690982092191462,1
+generic,Gnrc_Name,Halobetasol Propionate,False,71.96601624451932,3
+generic,Gnrc_Name,Haloperidol,False,17.574059218554794,202
+generic,Gnrc_Name,Haloperidol Decanoate,False,31.151404169015677,71
+generic,Gnrc_Name,Haloperidol Lactate,False,9.086607840790748,7
+generic,Gnrc_Name,"Heparin Sodium,porcine",False,6.576818580017971,1
+generic,Gnrc_Name,"Heparin Sodium,porcine/Pf",False,-10.216453496092981,1
+generic,Gnrc_Name,Hepatitis A And B Vaccine/Pf,False,124.34970458713588,9
+generic,Gnrc_Name,Hepatitis A Virus Vaccine/Pf,False,72.81512492141792,6
+generic,Gnrc_Name,Hepatitis B Vaccine/Cpg1018/Pf,False,140.32284551357407,2
+generic,Gnrc_Name,Hepatitis B Virus Vaccine/Pf,False,55.83766604225184,1
+generic,Gnrc_Name,Hpv Vaccine 9-Valent/Pf,False,279.0954016033179,2
+generic,Gnrc_Name,Hydralazine Hcl,False,4.686808233061129,895
+generic,Gnrc_Name,Hydrochlorothiazide,False,-3.4589195027479036,3972
+generic,Gnrc_Name,Hydrocodone Bitartrate,False,561.0086644973762,25
+generic,Gnrc_Name,Hydrocodone/Acetaminophen,False,12.664287880040774,4094
+generic,Gnrc_Name,Hydrocodone/Ibuprofen,False,99.2967156413697,12
+generic,Gnrc_Name,Hydrocortisone,False,9.870499815119729,669
+generic,Gnrc_Name,Hydrocortisone Sodium Succ/Pf,False,240.4226364158626,4
+generic,Gnrc_Name,Hydrocortisone Valerate,False,49.03140273841882,3
+generic,Gnrc_Name,Hydromorphone Hcl,False,19.43906961009452,549
+generic,Gnrc_Name,Hydroxychloroquine Sulfate,False,38.83734264677105,312
+generic,Gnrc_Name,Hydroxyurea,False,21.20559553404246,189
+generic,Gnrc_Name,Hydroxyzine Hcl,False,9.932168163578353,1773
+generic,Gnrc_Name,Hydroxyzine Pamoate,False,0.7799942161109357,286
+generic,Gnrc_Name,Ibandronate Sodium,False,24.914841387602337,234
+generic,Gnrc_Name,Ibrutinib,False,14390.39475000786,79
+generic,Gnrc_Name,Ibuprofen,False,4.814151642069191,1473
+generic,Gnrc_Name,Icatibant Acetate,False,20229.535901297426,3
+generic,Gnrc_Name,Icosapent Ethyl,False,417.7032186462616,171
+generic,Gnrc_Name,"Igg/Hyaluronidase,recombinant",False,7112.880624054094,2
+generic,Gnrc_Name,Iloperidone,False,1778.9273687971274,21
+generic,Gnrc_Name,Imatinib Mesylate,False,1424.903149258531,61
+generic,Gnrc_Name,Imipenem/Cilastatin Sodium,False,419.1379624167798,1
+generic,Gnrc_Name,Imipramine Hcl,False,6.065915753661102,34
+generic,Gnrc_Name,Imipramine Pamoate,False,90.51914633680963,1
+generic,Gnrc_Name,Imiquimod,False,32.187478336309596,84
+generic,Gnrc_Name,Immun Glob G(Igg)-Hipp/Maltose,False,3809.2300584786067,1
+generic,Gnrc_Name,Immun Glob G(Igg)-Ifas/Glycine,False,15241.923221760479,6
+generic,Gnrc_Name,Immun Glob G(Igg)/Gly/Iga 0-50,False,10227.429231288272,8
+generic,Gnrc_Name,Immun Glob G(Igg)/Gly/Iga Ov50,False,10933.90611867603,31
+generic,Gnrc_Name,Immun Glob G(Igg)/Pro/Iga 0-50,False,12259.98908873497,26
+generic,Gnrc_Name,Immun Globg(Igg)/Malt/Iga Ov50,False,14184.711831239396,6
+generic,Gnrc_Name,Immune Globul G/Gly/Iga Avg 46,False,9415.270872967789,33
+generic,Gnrc_Name,"Immune Globulin,gamma(Igg)klhw",False,3264.147186691435,2
+generic,Gnrc_Name,Incobotulinumtoxina,False,780.25475910166,2
+generic,Gnrc_Name,Indapamide,False,2.390394928794194,19
+generic,Gnrc_Name,Indomethacin,False,-0.10951860521936396,74
+generic,Gnrc_Name,Infliximab,False,6033.49020457275,4
+generic,Gnrc_Name,Insulin Aspart,False,185.80072002044926,347
+generic,Gnrc_Name,Insulin Aspart (Niacinamide),False,834.7328112402056,69
+generic,Gnrc_Name,Insulin Aspart Prot/Insuln Asp,False,229.74200252156788,22
+generic,Gnrc_Name,Insulin Degludec,False,775.1130080220146,467
+generic,Gnrc_Name,Insulin Degludec/Liraglutide,False,1405.4775659109478,8
+generic,Gnrc_Name,Insulin Detemir,False,221.36259034720615,150
+generic,Gnrc_Name,"Insulin Glargine,hum.Rec.Anlog",False,225.2593784774508,2476
+generic,Gnrc_Name,Insulin Glargine-Yfgn,False,125.911458522261,468
+generic,Gnrc_Name,Insulin Glargine/Lixisenatide,False,1188.4978170389181,34
+generic,Gnrc_Name,Insulin Lispro,False,243.68728809456206,737
+generic,Gnrc_Name,Insulin Lispro Protamin/Lispro,False,313.77289161625276,26
+generic,Gnrc_Name,Insulin Lispro-Aabc,False,995.5641104560141,19
+generic,Gnrc_Name,Insulin Nph Hum/Reg Insulin Hm,False,165.91370420078238,65
+generic,Gnrc_Name,Insulin Nph Human Isophane,False,142.73096976191027,310
+generic,Gnrc_Name,"Insulin Pump Cart,auto,bt,g6/7",False,1276.17250896713,75
+generic,Gnrc_Name,"Insulin Pump Cart,cont Inf,bt",False,1732.4605255659033,5
+generic,Gnrc_Name,"Insulin Regular, Human",False,498.0845273785171,166
+generic,Gnrc_Name,Interferon Beta-1a,False,8789.184202543198,19
+generic,Gnrc_Name,Interferon Beta-1a/Albumin,False,11176.320005245423,14
+generic,Gnrc_Name,Interferon Beta-1b,False,9747.670073927049,8
+generic,Gnrc_Name,Ipratropium Bromide,False,61.929632606978885,999
+generic,Gnrc_Name,Ipratropium/Albuterol Sulfate,False,414.06875467112377,314
+generic,Gnrc_Name,Irbesartan,False,9.186322393694354,580
+generic,Gnrc_Name,Irbesartan/Hydrochlorothiazide,False,7.357815191262489,43
+generic,Gnrc_Name,Isavuconazonium Sulfate,False,6462.586543199505,18
+generic,Gnrc_Name,Isoniazid,False,-10.689847098191422,2
+generic,Gnrc_Name,Isosorbide Dinitrate,False,40.83433133119706,48
+generic,Gnrc_Name,Isosorbide Mononitrate,False,-2.3114273708310975,570
+generic,Gnrc_Name,Isotretinoin,False,107.71237888425821,1
+generic,Gnrc_Name,Isradipine,False,163.3440423564307,2
+generic,Gnrc_Name,Istradefylline,False,2271.19500140332,7
+generic,Gnrc_Name,Itraconazole,False,99.70376334334242,7
+generic,Gnrc_Name,Ivabradine Hcl,False,472.7822740358556,8
+generic,Gnrc_Name,Ivacaftor,False,26708.133010034107,3
+generic,Gnrc_Name,Ivermectin,False,98.7955761034882,5
+generic,Gnrc_Name,Ivosidenib,False,32219.864517119746,4
+generic,Gnrc_Name,Ixazomib Citrate,False,12529.513103430489,9
+generic,Gnrc_Name,Ixekizumab,False,7704.447236620776,45
+generic,Gnrc_Name,Japanese Encephalitis Vacc/Pf,False,266.4178610222589,2
+generic,Gnrc_Name,Ketoconazole,False,18.328238317699288,712
+generic,Gnrc_Name,Ketorolac Tromethamine,False,-2.7263740280427555,231
+generic,Gnrc_Name,Labetalol Hcl,False,22.911192264419242,178
+generic,Gnrc_Name,Lacosamide,False,150.13864602672584,297
+generic,Gnrc_Name,Lactulose,False,19.497212516926083,360
+generic,Gnrc_Name,Lamivudine,False,71.97646241931625,7
+generic,Gnrc_Name,Lamivudine/Zidovudine,False,100.99081923117956,1
+generic,Gnrc_Name,Lamotrigine,False,48.350859057316484,1604
+generic,Gnrc_Name,Lanadelumab-Flyo,False,40590.228141155894,3
+generic,Gnrc_Name,Lanreotide Acetate,False,7271.9543794280235,4
+generic,Gnrc_Name,Lansoprazole,False,37.637505586867064,208
+generic,Gnrc_Name,Lanthanum Carbonate,False,966.4597763220331,13
+generic,Gnrc_Name,Laronidase,False,39635.818047517794,1
+generic,Gnrc_Name,Lasmiditan Succinate,False,937.6907461997689,9
+generic,Gnrc_Name,Latanoprost,False,-3.60481073671599,1085
+generic,Gnrc_Name,Latanoprost/Pf,False,344.08962631437817,2
+generic,Gnrc_Name,Latanoprostene Bunod,False,496.2772266342031,41
+generic,Gnrc_Name,Leflunomide,False,57.53543069861007,113
+generic,Gnrc_Name,Lemborexant,False,348.8840992697924,49
+generic,Gnrc_Name,Lenalidomide,False,15829.996329216734,170
+generic,Gnrc_Name,Lenvatinib Mesylate,False,22136.389527341402,10
+generic,Gnrc_Name,Letermovir,False,7165.280797963256,6
+generic,Gnrc_Name,Letrozole,False,26.511742062414214,209
+generic,Gnrc_Name,Leucovorin Calcium,False,24.15125156852946,36
+generic,Gnrc_Name,Leuprolide Acetate,False,3986.6403735155723,2
+generic,Gnrc_Name,Levalbuterol Hcl,False,75.13536077468461,5
+generic,Gnrc_Name,Levalbuterol Tartrate,False,71.57932730334687,45
+generic,Gnrc_Name,Levetiracetam,False,54.20745693754225,1029
+generic,Gnrc_Name,Levobunolol Hcl,False,0.6464164418607652,7
+generic,Gnrc_Name,Levocarnitine,False,69.53957923089638,7
+generic,Gnrc_Name,Levocarnitine (With Sugar),False,155.898214277448,9
+generic,Gnrc_Name,Levocetirizine Dihydrochloride,False,10.88335607371846,180
+generic,Gnrc_Name,Levodopa,False,2202.2039724084257,4
+generic,Gnrc_Name,Levofloxacin,False,-2.0122405466122473,412
+generic,Gnrc_Name,Levomilnacipran Hcl,False,532.2646907332864,17
+generic,Gnrc_Name,Levonorgestrel/Ethin.Estradiol,False,5.119514737350983,7
+generic,Gnrc_Name,Levorphanol Tartrate,False,3418.5194255787046,1
+generic,Gnrc_Name,Levothyroxine Sodium,False,15.908897282038197,7007
+generic,Gnrc_Name,Lidocaine,False,126.80887275201212,736
+generic,Gnrc_Name,Lidocaine Hcl,False,17.552392430696727,101
+generic,Gnrc_Name,Lidocaine Hcl/Pf,False,-2.7442288869383447,2
+generic,Gnrc_Name,Lidocaine/Prilocaine,False,14.036622686645387,161
+generic,Gnrc_Name,Lifitegrast,False,1068.9478396467653,118
+generic,Gnrc_Name,Linaclotide,False,787.4829368808296,514
+generic,Gnrc_Name,Linagliptin,False,780.9184101488236,336
+generic,Gnrc_Name,Linagliptin/Metformin Hcl,False,456.6130736378068,3
+generic,Gnrc_Name,Linezolid,False,92.4514131525425,5
+generic,Gnrc_Name,Linezolid In Dextrose 5%,False,145.8704893820568,1
+generic,Gnrc_Name,Liothyronine Sodium,False,25.625005880602657,422
+generic,Gnrc_Name,Lipase/Protease/Amylase,False,2422.0160728111723,344
+generic,Gnrc_Name,Liraglutide,False,941.7037130094532,31
+generic,Gnrc_Name,Lisdexamfetamine Dimesylate,False,292.29687065393455,164
+generic,Gnrc_Name,Lisinopril,False,-1.2272178099183293,5504
+generic,Gnrc_Name,Lisinopril/Hydrochlorothiazide,False,0.8681635838020156,2336
+generic,Gnrc_Name,Lithium Carbonate,False,0.43254498969281485,490
+generic,Gnrc_Name,Lomustine,False,946.0713203781943,2
+generic,Gnrc_Name,Loperamide Hcl,False,19.11210010056857,127
+generic,Gnrc_Name,Lorazepam,False,4.164710530161301,2535
+generic,Gnrc_Name,Lorlatinib,False,18908.174766921537,3
+generic,Gnrc_Name,Losartan Potassium,False,0.8777656232905429,5146
+generic,Gnrc_Name,Losartan/Hydrochlorothiazide,False,4.618606661795184,1915
+generic,Gnrc_Name,Loteprednol Etabonate,False,186.1294479066678,61
+generic,Gnrc_Name,Lotilaner,False,1842.3149363643859,15
+generic,Gnrc_Name,Lovastatin,False,3.1064808417440872,981
+generic,Gnrc_Name,Loxapine Succinate,False,66.18948483550957,28
+generic,Gnrc_Name,Lubiprostone,False,84.15411729744619,139
+generic,Gnrc_Name,Lumateperone Tosylate,False,1629.7031167883574,65
+generic,Gnrc_Name,Lurasidone Hcl,False,199.6100014961794,325
+generic,Gnrc_Name,Macitentan,False,12740.717988236225,33
+generic,Gnrc_Name,Magnesium Sulfate,False,-6.791719279439349,7
+generic,Gnrc_Name,Maraviroc,False,1263.6046307040265,5
+generic,Gnrc_Name,Mavacamten,False,8080.211335404618,12
+generic,Gnrc_Name,"Measles,mumps,rubella Vacc/Pf",False,90.80324761552947,3
+generic,Gnrc_Name,Mechlorethamine Hcl,False,13414.113480796697,1
+generic,Gnrc_Name,Meclizine Hcl,False,5.176118725492415,302
+generic,Gnrc_Name,Medroxyprogesterone Acetate,False,8.378232693088194,76
+generic,Gnrc_Name,Megestrol Acetate,False,53.65715692801086,47
+generic,Gnrc_Name,Meloxicam,False,0.020454891208373738,3339
+generic,Gnrc_Name,"Meloxicam, Submicronized",False,459.9967615714636,2
+generic,Gnrc_Name,Memantine Hcl,False,22.404588918152513,994
+generic,Gnrc_Name,Memantine Hcl/Donepezil Hcl,False,724.4067549040415,10
+generic,Gnrc_Name,"Mening Vac A,c,y,w-135 Dip/Pf",False,159.3896684620131,3
+generic,Gnrc_Name,"Mening Vac A,c,y,w135,c-Tet/Pf",False,156.15616850778406,2
+generic,Gnrc_Name,"Meningococcal B Vaccine,4-Comp",False,185.85225250841722,1
+generic,Gnrc_Name,Mepolizumab,False,4403.914409335824,30
+generic,Gnrc_Name,Mercaptopurine,False,40.54299776138032,6
+generic,Gnrc_Name,Meropenem,False,210.35324040899832,7
+generic,Gnrc_Name,Meropenem-0.9% Sodium Chloride,False,318.59785396302414,1
+generic,Gnrc_Name,Mesalamine,False,358.4168229114084,205
+generic,Gnrc_Name,Metaxalone,False,165.47676772785962,8
+generic,Gnrc_Name,Metformin Hcl,False,2.716544932566194,6959
+generic,Gnrc_Name,Methadone Hcl,False,15.4446751088758,266
+generic,Gnrc_Name,Methazolamide,False,396.40562071433715,2
+generic,Gnrc_Name,Methenamine Hippurate,False,64.1096840482569,315
+generic,Gnrc_Name,Methenamine Mandelate,False,93.98676699023599,1
+generic,Gnrc_Name,Methimazole,False,-21.056567303589873,205
+generic,Gnrc_Name,Methocarbamol,False,7.516187613702641,1563
+generic,Gnrc_Name,Methotrexate Sodium,False,20.389605841094635,286
+generic,Gnrc_Name,Methotrexate Sodium/Pf,False,9.543056295211954,23
+generic,Gnrc_Name,Methotrexate/Pf,False,654.868742898233,7
+generic,Gnrc_Name,Methscopolamine Bromide,False,-1.5229282323412008,1
+generic,Gnrc_Name,Methylnaltrexone Bromide,False,2618.681595296971,21
+generic,Gnrc_Name,Methylphenidate Hcl,False,28.14664684286754,512
+generic,Gnrc_Name,Methylprednisolone,False,3.1372505275689946,1200
+generic,Gnrc_Name,Methylprednisolone Sod Succ,False,-95.33727659814531,2
+generic,Gnrc_Name,Metoclopramide Hcl,False,-0.1056804693171216,169
+generic,Gnrc_Name,Metolazone,False,14.678512698551458,126
+generic,Gnrc_Name,Metoprolol Succinate,False,4.7403064737463865,4309
+generic,Gnrc_Name,Metoprolol Tartrate,False,-1.4801834347113072,3270
+generic,Gnrc_Name,Metronidazole,False,31.699619479100875,362
+generic,Gnrc_Name,Mexiletine Hcl,False,79.55498280042002,18
+generic,Gnrc_Name,Micafungin Sodium,False,183.70937350470558,6
+generic,Gnrc_Name,Midazolam,False,731.5431422781207,18
+generic,Gnrc_Name,Midodrine Hcl,False,53.23002451459524,330
+generic,Gnrc_Name,Mifepristone,False,41636.16850856244,3
+generic,Gnrc_Name,Migalastat Hcl,False,35470.607777247526,1
+generic,Gnrc_Name,Milnacipran Hcl,False,569.0286129719716,25
+generic,Gnrc_Name,Minocycline Hcl,False,29.77696519808478,64
+generic,Gnrc_Name,Minoxidil,False,15.510943949603643,202
+generic,Gnrc_Name,Mirabegron,False,662.1901617701046,1207
+generic,Gnrc_Name,Mirtazapine,False,13.067114878914253,2221
+generic,Gnrc_Name,Misoprostol,False,21.58053519247096,11
+generic,Gnrc_Name,Mitotane,False,2463.2038414388385,1
+generic,Gnrc_Name,Modafinil,False,51.23488095995481,159
+generic,Gnrc_Name,Moexipril Hcl,False,30.4139492108975,1
+generic,Gnrc_Name,Molnupiravir,False,478.7610790810304,12
+generic,Gnrc_Name,Momelotinib Dihydrochloride,False,27780.63591043367,3
+generic,Gnrc_Name,Mometasone Furoate,False,53.07007892807769,133
+generic,Gnrc_Name,Mometasone/Formoterol,False,424.8745354737498,188
+generic,Gnrc_Name,Montelukast Sodium,False,5.14447873448853,2655
+generic,Gnrc_Name,Morphine Sulfate,False,24.538821477523015,1323
+generic,Gnrc_Name,Moxifloxacin Hcl,False,-3.3305540589235534,138
+generic,Gnrc_Name,Mupirocin,False,6.942421662304696,782
+generic,Gnrc_Name,Mupirocin Calcium,False,305.7184337874223,1
+generic,Gnrc_Name,Mycophenolate Mofetil,False,121.11514537082758,212
+generic,Gnrc_Name,Mycophenolate Sodium,False,231.0174516011498,37
+generic,Gnrc_Name,Nabumetone,False,11.438488869881894,73
+generic,Gnrc_Name,Nadolol,False,33.54060816742685,19
+generic,Gnrc_Name,Nafcillin Sodium,False,752.9967444680619,1
+generic,Gnrc_Name,Naldemedine Tosylate,False,496.22360845313597,7
+generic,Gnrc_Name,Naloxegol Oxalate,False,452.94476009246364,124
+generic,Gnrc_Name,Naloxone Hcl,False,51.86463186872834,233
+generic,Gnrc_Name,Naltrexone Hcl,False,37.642107769940594,190
+generic,Gnrc_Name,Naltrexone Hcl/Bupropion Hcl,False,673.5211385671969,1
+generic,Gnrc_Name,Naltrexone Microspheres,False,1649.5883909701215,17
+generic,Gnrc_Name,Naproxen,False,9.733993215473674,623
+generic,Gnrc_Name,Naratriptan Hcl,False,-8.883284079436635,48
+generic,Gnrc_Name,Nateglinide,False,31.373572239775058,7
+generic,Gnrc_Name,Nebivolol Hcl,False,50.663842265625135,419
+generic,Gnrc_Name,Nefazodone Hcl,False,84.65386583992404,1
+generic,Gnrc_Name,Nelfinavir Mesylate,False,1196.8108192311797,1
+generic,Gnrc_Name,Nemolizumab-Ilto,False,7973.55167402019,2
+generic,Gnrc_Name,Neomycin Sulfate,False,2.1107556851043228,29
+generic,Gnrc_Name,Neomycin/Bacitracin/Polymyxinb,False,-7.308019734446589,1
+generic,Gnrc_Name,Neomycin/Polymyxin B/Dexametha,False,-13.322023272047772,277
+generic,Gnrc_Name,Neomycin/Polymyxin B/Hydrocort,False,50.926568092941125,17
+generic,Gnrc_Name,Nepafenac,False,336.88324528107614,5
+generic,Gnrc_Name,Netarsudil Mesylat/Latanoprost,False,469.42409231886586,52
+generic,Gnrc_Name,Netarsudil Mesylate,False,461.87182265233787,62
+generic,Gnrc_Name,Nevirapine,False,106.70488600274757,4
+generic,Gnrc_Name,Niacin,False,86.31806181815045,18
+generic,Gnrc_Name,Nicotine,False,506.65295311687305,2
+generic,Gnrc_Name,Nifedipine,False,15.759220206732152,300
+generic,Gnrc_Name,Nilotinib Hcl,False,15478.762686243612,19
+generic,Gnrc_Name,Nilutamide,False,1583.7206419116224,1
+generic,Gnrc_Name,Nimodipine,False,74.524729110718,1
+generic,Gnrc_Name,Nintedanib Esylate,False,13265.437584881922,68
+generic,Gnrc_Name,Niraparib Tosylate,False,19890.6741011208,7
+generic,Gnrc_Name,Nirmatrelvir/Ritonavir,False,13.859746635690044,683
+generic,Gnrc_Name,Nirogacestat Hydrobromide,False,28153.32361952174,1
+generic,Gnrc_Name,Nitazoxanide,False,783.2972675193496,1
+generic,Gnrc_Name,Nitrofurantoin,False,2882.855442466739,1
+generic,Gnrc_Name,Nitrofurantoin Macrocrystal,False,30.13228327566594,130
+generic,Gnrc_Name,Nitrofurantoin Monohyd/M-Cryst,False,8.210619960508666,1607
+generic,Gnrc_Name,Nitroglycerin,False,-4.0745362825250595,516
+generic,Gnrc_Name,Nizatidine,False,64.04380039170155,3
+generic,Gnrc_Name,Norethindrone,False,15.729374026116147,5
+generic,Gnrc_Name,Norethindrone Ac/Eth Estradiol,False,28.060797050760357,9
+generic,Gnrc_Name,Norethindrone Acetate,False,24.68838542794856,14
+generic,Gnrc_Name,Norethindrone-E.Estradiol-Iron,False,11.923719248527505,5
+generic,Gnrc_Name,Norethindrone-Ethin. Estradiol,False,-10.684888878705806,5
+generic,Gnrc_Name,Norgestimate-Ethinyl Estradiol,False,9.561999962963,12
+generic,Gnrc_Name,Norgestrel-Ethinyl Estradiol,False,5.630954311367077,2
+generic,Gnrc_Name,Nortriptyline Hcl,False,-3.0015727871182207,481
+generic,Gnrc_Name,Nystatin,False,17.203721631589815,1037
+generic,Gnrc_Name,Nystatin/Triamcinolone Acet,False,37.552182931606694,15
+generic,Gnrc_Name,Obeticholic Acid,False,10465.289315738779,13
+generic,Gnrc_Name,Octreotide Acetate,False,4501.1154801797165,6
+generic,Gnrc_Name,"Octreotide Acetate,mi-Spheres",False,4705.766650179514,2
+generic,Gnrc_Name,Ofatumumab,False,9902.80336928452,31
+generic,Gnrc_Name,Ofloxacin,False,1.5256023383581123,232
+generic,Gnrc_Name,Olanzapine,False,33.459882490784366,1116
+generic,Gnrc_Name,Olanzapine Pamoate,False,930.410165265012,2
+generic,Gnrc_Name,Olanzapine/Fluoxetine Hcl,False,169.38262841817732,1
+generic,Gnrc_Name,Olanzapine/Samidorphan Malate,False,1573.8603210845722,30
+generic,Gnrc_Name,Olaparib,False,13657.242584618602,22
+generic,Gnrc_Name,Olmesartan Medoxomil,False,9.472515874240344,858
+generic,Gnrc_Name,Olmesartan/Amlodipin/Hcthiazid,False,55.97588281838034,7
+generic,Gnrc_Name,Olmesartan/Hydrochlorothiazide,False,30.49516139481875,129
+generic,Gnrc_Name,Olodaterol Hcl,False,319.3382164821014,4
+generic,Gnrc_Name,Olopatadine Hcl,False,201.43264358199212,3
+generic,Gnrc_Name,Omadacycline Tosylate,False,15067.155330924412,4
+generic,Gnrc_Name,Omalizumab,False,3526.0817430319084,29
+generic,Gnrc_Name,Omaveloxolone,False,32289.582997047153,2
+generic,Gnrc_Name,Omega-3 Acid Ethyl Esters,False,59.11723193184616,115
+generic,Gnrc_Name,Omeprazole,False,6.897709522023433,4968
+generic,Gnrc_Name,Omeprazole Magnesium,False,1346.8383348884822,2
+generic,Gnrc_Name,Omeprazole/Sodium Bicarbonate,False,1150.8139507018245,2
+generic,Gnrc_Name,Onabotulinumtoxina,False,1265.087070346357,34
+generic,Gnrc_Name,Ondansetron,False,11.123937940328688,2285
+generic,Gnrc_Name,Ondansetron Hcl,False,13.156802254585727,1166
+generic,Gnrc_Name,Ondansetron Hcl/Pf,False,8.638524371501717,13
+generic,Gnrc_Name,Opicapone,False,1024.4152360373732,2
+generic,Gnrc_Name,Opium Tincture,False,380.9396364248728,2
+generic,Gnrc_Name,Orphenadrine Citrate,False,27.937373171186664,8
+generic,Gnrc_Name,Oseltamivir Phosphate,False,34.395011358836655,44
+generic,Gnrc_Name,Osilodrostat Phosphate,False,34090.473153938845,2
+generic,Gnrc_Name,Osimertinib Mesylate,False,16626.945901040755,48
+generic,Gnrc_Name,Ospemifene,False,299.81570873727605,8
+generic,Gnrc_Name,Oxaprozin,False,19.04762045070993,2
+generic,Gnrc_Name,Oxazepam,False,35.73160085299378,6
+generic,Gnrc_Name,Oxcarbazepine,False,99.45868381302398,360
+generic,Gnrc_Name,Oxybutynin Chloride,False,10.256709955423958,1727
+generic,Gnrc_Name,Oxycodone Hcl,False,50.14364687878469,4669
+generic,Gnrc_Name,Oxycodone Hcl/Acetaminophen,False,21.309853050358925,2094
+generic,Gnrc_Name,Oxycodone Myristate,False,605.2577245685088,239
+generic,Gnrc_Name,Oxymorphone Hcl,False,499.48500171258274,13
+generic,Gnrc_Name,Ozanimod Hydrochloride,False,9214.383491348688,7
+generic,Gnrc_Name,Pacritinib Citrate,False,22990.854216821157,2
+generic,Gnrc_Name,Palbociclib,False,15242.188631339935,62
+generic,Gnrc_Name,Paliperidone,False,157.55991350212662,151
+generic,Gnrc_Name,Paliperidone Palmitate,False,3375.588017360823,202
+generic,Gnrc_Name,Pantoprazole Sodium,False,5.248581083592853,4426
+generic,Gnrc_Name,Parenteral Amino Acid 15% No.5,False,133.47918371135484,3
+generic,Gnrc_Name,Parenteral Amino Acid 15% No.6,False,49.00172049156481,1
+generic,Gnrc_Name,Parenteral Amino Acid 20% No.1,False,213.53049465235154,16
+generic,Gnrc_Name,Paricalcitol,False,30.908877445082,3
+generic,Gnrc_Name,Paroxetine Hcl,False,8.398921859436996,1112
+generic,Gnrc_Name,Pasireotide Diaspartate,False,19590.470507125086,1
+generic,Gnrc_Name,Patiromer Calcium Sorbitex,False,968.3754079992018,32
+generic,Gnrc_Name,Pazopanib Hcl,False,7383.108305668923,2
+generic,Gnrc_Name,"Peg 3350/Sod Sulf,chlr/Pot/Mag",False,69.8273071293761,52
+generic,Gnrc_Name,Peg3350/Sod Sul/Nacl/Kcl/Asb/C,False,100.45576079271132,1
+generic,Gnrc_Name,"Peg3350/Sod Sulf,bicarb,cl/Kcl",False,-25.61620974222342,264
+generic,Gnrc_Name,Pegcetacoplan,False,40242.73776400281,1
+generic,Gnrc_Name,Pegfilgrastim,False,6099.854189866625,1
+generic,Gnrc_Name,Pegfilgrastim-Apgf,False,3681.551812693306,1
+generic,Gnrc_Name,Peginterferon Alfa-2a,False,3511.103292853405,7
+generic,Gnrc_Name,Pegvaliase-Pqpz,False,33692.71638085113,1
+generic,Gnrc_Name,Pegvisomant,False,18454.415489551753,2
+generic,Gnrc_Name,Pembrolizumab,False,11215.25592779389,1
+generic,Gnrc_Name,"Pen Needle, Diabetic",False,50.10707617345497,923
+generic,Gnrc_Name,"Pen Needle, Diabetic, Safety",False,91.7438123355546,4
+generic,Gnrc_Name,"Pen Needle, Diabetic,disp Unit",False,49.255337104743376,1
+generic,Gnrc_Name,"Pen Needle,dual Safety,diabetc",False,91.22851505676044,59
+generic,Gnrc_Name,Penicillin V Potassium,False,6.474649466058963,126
+generic,Gnrc_Name,Pentazocine Hcl/Naloxone Hcl,False,64.12408213268372,1
+generic,Gnrc_Name,Pentosan Polysulfate Sodium,False,928.0198901694739,13
+generic,Gnrc_Name,Pentoxifylline,False,43.314360247156856,44
+generic,Gnrc_Name,Perampanel,False,1077.018090120709,26
+generic,Gnrc_Name,Perfluorohexyloctane/Pf,False,939.2071716315072,29
+generic,Gnrc_Name,Permethrin,False,43.14992408723765,4
+generic,Gnrc_Name,Perphenazine,False,44.836208456100394,56
+generic,Gnrc_Name,Perphenazine/Amitriptyline Hcl,False,48.31027993332873,1
+generic,Gnrc_Name,Phenelzine Sulfate,False,56.69824775829147,3
+generic,Gnrc_Name,Phenobarbital,False,-9.966689175434112,77
+generic,Gnrc_Name,Phenytoin,False,20.112646278531884,16
+generic,Gnrc_Name,Phenytoin Sodium Extended,False,22.474362446751,158
+generic,Gnrc_Name,Pilocarpine Hcl,False,61.63693566418988,98
+generic,Gnrc_Name,Pimavanserin Tartrate,False,4416.951825888312,42
+generic,Gnrc_Name,Pimecrolimus,False,245.3499615141327,13
+generic,Gnrc_Name,Pimozide,False,26.11536143546482,1
+generic,Gnrc_Name,Pindolol,False,118.7573270406765,1
+generic,Gnrc_Name,Pioglitazone Hcl,False,1.397731473483418,879
+generic,Gnrc_Name,Pioglitazone Hcl/Metformin Hcl,False,28.788618748037152,1
+generic,Gnrc_Name,Piperacillin Sodium/Tazobactam,False,112.69740955812222,2
+generic,Gnrc_Name,Pirfenidone,False,1629.284188433063,38
+generic,Gnrc_Name,Piroxicam,False,29.990168172195354,5
+generic,Gnrc_Name,Pirtobrutinib,False,19279.317110193013,2
+generic,Gnrc_Name,Pitavastatin Calcium,False,338.63347083530334,37
+generic,Gnrc_Name,Pitolisant Hcl,False,10920.331983546761,3
+generic,Gnrc_Name,Plecanatide,False,627.943080500957,51
+generic,Gnrc_Name,Pnv Cmb 52/Iron/Fa/Omega-3/Dha,False,15.957489522925698,1
+generic,Gnrc_Name,"Pnv,calcium 72/Iron/Folic Acid",False,-0.9252850194843631,6
+generic,Gnrc_Name,"Poliomyelitis Vaccine, Killed",False,68.80815081686478,5
+generic,Gnrc_Name,Polymyxin B Sulf/Trimethoprim,False,-10.207532668616295,48
+generic,Gnrc_Name,Pomalidomide,False,22532.105205165713,41
+generic,Gnrc_Name,Ponatinib Hcl,False,20634.963957698812,2
+generic,Gnrc_Name,Posaconazole,False,1028.8673302111674,22
+generic,Gnrc_Name,Potassium Bicarbonate/Cit Ac,False,41.40276768757258,1
+generic,Gnrc_Name,Potassium Chloride,False,12.616275258257247,3784
+generic,Gnrc_Name,Potassium Chloride In 0.9%nacl,False,34.37074541465154,2
+generic,Gnrc_Name,Potassium Chloride/D5-0.45nacl,False,-16.12443796753223,2
+generic,Gnrc_Name,Potassium Citrate,False,87.29568393954196,163
+generic,Gnrc_Name,Pralsetinib,False,5282.792371684807,1
+generic,Gnrc_Name,Pramipexole Di-Hcl,False,5.095403911111589,748
+generic,Gnrc_Name,Prasterone (Dhea),False,287.214963191303,1
+generic,Gnrc_Name,Prasugrel Hcl,False,48.92948022651626,68
+generic,Gnrc_Name,Pravastatin Sodium,False,3.9013045292572315,2184
+generic,Gnrc_Name,Prazosin Hcl,False,9.576742792616642,492
+generic,Gnrc_Name,Prednisolone,False,33.811584464504904,2
+generic,Gnrc_Name,Prednisolone Acetate,False,19.358152794334273,477
+generic,Gnrc_Name,Prednisone,False,-2.379403653031659,4729
+generic,Gnrc_Name,Pregabalin,False,23.752747643252405,2779
+generic,Gnrc_Name,Primidone,False,-2.40683137252654,389
+generic,Gnrc_Name,Probenecid,False,57.49531744977594,16
+generic,Gnrc_Name,Probenecid/Colchicine,False,72.31882226868811,2
+generic,Gnrc_Name,Prochlorperazine,False,73.45771799110707,1
+generic,Gnrc_Name,Prochlorperazine Edisylate,False,66.39464366096354,1
+generic,Gnrc_Name,Prochlorperazine Maleate,False,15.698239158200067,267
+generic,Gnrc_Name,"Progesterone, Micronized",False,30.268873067595905,479
+generic,Gnrc_Name,Promethazine Hcl,False,2.964164288194297,290
+generic,Gnrc_Name,Propafenone Hcl,False,83.19010953708676,25
+generic,Gnrc_Name,Propranolol Hcl,False,11.068578104985136,2162
+generic,Gnrc_Name,Propylthiouracil,False,34.32711286185304,5
+generic,Gnrc_Name,Prucalopride Succinate,False,728.4167075621967,46
+generic,Gnrc_Name,Pyridostigmine Bromide,False,20.354744823860983,75
+generic,Gnrc_Name,Pyrimethamine,False,9316.03081923118,1
+generic,Gnrc_Name,Quetiapine Fumarate,False,14.46115041633584,2270
+generic,Gnrc_Name,Quinidine Gluconate,False,300.95660183320933,1
+generic,Gnrc_Name,Rabeprazole Sodium,False,27.549610444249993,58
+generic,Gnrc_Name,Rabies Vaccine (Pcec)/Pf,False,336.49736239852746,1
+generic,Gnrc_Name,Raloxifene Hcl,False,33.67539571495263,115
+generic,Gnrc_Name,Raltegravir Potassium,False,2157.7106801045325,23
+generic,Gnrc_Name,Ramelteon,False,111.25621336312088,71
+generic,Gnrc_Name,Ramipril,False,-5.6221420314350325,228
+generic,Gnrc_Name,Ranolazine,False,72.04569876584628,146
+generic,Gnrc_Name,Rasagiline Mesylate,False,124.92692633353818,51
+generic,Gnrc_Name,Ravulizumab-Cwvz,False,56269.75134386877,2
+generic,Gnrc_Name,Relugolix,False,2695.4729872516245,66
+generic,Gnrc_Name,Repaglinide,False,-8.104474156846663,20
+generic,Gnrc_Name,Resmetirom,False,5344.6417452084015,5
+generic,Gnrc_Name,Ribociclib Succinate,False,15682.357649195581,23
+generic,Gnrc_Name,Rifabutin,False,423.02690820200587,3
+generic,Gnrc_Name,Rifampin,False,54.428774361299475,22
+generic,Gnrc_Name,Rifapentine,False,14.097146844927465,1
+generic,Gnrc_Name,Rifaximin,False,2767.913939302414,181
+generic,Gnrc_Name,Rilonacept,False,22230.29526560549,1
+generic,Gnrc_Name,Rilpivirine Hcl,False,1284.5200937268269,4
+generic,Gnrc_Name,Riluzole,False,83.8453831191423,15
+generic,Gnrc_Name,Rimantadine Hcl,False,302.47020563079286,1
+generic,Gnrc_Name,Rimegepant Sulfate,False,1315.56268059388,206
+generic,Gnrc_Name,"Ringer's Solution,lactated",False,1.5843182923576933,9
+generic,Gnrc_Name,Riociguat,False,13675.853879399123,29
+generic,Gnrc_Name,Risankizumab-Rzaa,False,21186.083757410335,21
+generic,Gnrc_Name,Risdiplam,False,26723.24196699056,3
+generic,Gnrc_Name,Risedronate Sodium,False,45.66520164670965,65
+generic,Gnrc_Name,Risperidone,False,27.474139811221903,873
+generic,Gnrc_Name,Risperidone Microspheres,False,953.7348960855379,39
+generic,Gnrc_Name,Ritlecitinib Tosylate,False,3808.151023750785,1
+generic,Gnrc_Name,Ritonavir,False,129.03161986252417,22
+generic,Gnrc_Name,Rivaroxaban,False,1041.140069017934,2278
+generic,Gnrc_Name,Rivastigmine,False,150.02839150852333,70
+generic,Gnrc_Name,Rivastigmine Tartrate,False,8.470740009529436,61
+generic,Gnrc_Name,Rizatriptan Benzoate,False,-2.574914089075719,283
+generic,Gnrc_Name,Roflumilast,False,67.54157344728765,57
+generic,Gnrc_Name,Rolapitant Hcl,False,678.9185523725332,1
+generic,Gnrc_Name,Romosozumab-Aqqg,False,2418.9551554675754,7
+generic,Gnrc_Name,Ropeginterferon Alfa-2b-Njft,False,15967.275689010294,2
+generic,Gnrc_Name,Ropinirole Hcl,False,9.657499981407454,1150
+generic,Gnrc_Name,Rosuvastatin Calcium,False,3.9899810014608192,4548
+generic,Gnrc_Name,Rotigotine,False,1224.4370993949237,21
+generic,Gnrc_Name,"Rsv Vacc, Pref A And Pref B/Pf",False,296.0324287323224,151
+generic,Gnrc_Name,"Rsv Vaccine, Pref, Mrna/Pf",False,302.76426023295244,4
+generic,Gnrc_Name,Rsvpref3 Antigen/As01e/Pf,False,197.32501957074373,497
+generic,Gnrc_Name,Rufinamide,False,1329.2405543234554,20
+generic,Gnrc_Name,Ruxolitinib Phosphate,False,13688.542050331938,76
+generic,Gnrc_Name,Sacrosidase,False,10375.905871789564,2
+generic,Gnrc_Name,Sacubitril/Valsartan,False,1132.6842138661264,513
+generic,Gnrc_Name,Safinamide Mesylate,False,1021.1041370923672,1
+generic,Gnrc_Name,Salmeterol Xinafoate,False,467.413027792923,32
+generic,Gnrc_Name,Salsalate,False,42.2314848323781,1
+generic,Gnrc_Name,Sapropterin Dihydrochloride,False,24688.380774790527,1
+generic,Gnrc_Name,Sarilumab,False,4470.542878048081,21
+generic,Gnrc_Name,Satralizumab-Mwge,False,23305.54306928769,2
+generic,Gnrc_Name,Saxagliptin Hcl,False,156.20934488135708,5
+generic,Gnrc_Name,Scopolamine,False,84.80538950826258,50
+generic,Gnrc_Name,Secukinumab,False,7466.565833773484,94
+generic,Gnrc_Name,Selegiline,False,2427.813528475025,1
+generic,Gnrc_Name,Selegiline Hcl,False,42.07724943369067,21
+generic,Gnrc_Name,Selenium Sulfide,False,10.738378779193226,5
+generic,Gnrc_Name,Selexipag,False,24276.47136906111,19
+generic,Gnrc_Name,Selpercatinib,False,20129.272320253436,2
+generic,Gnrc_Name,Selumetinib Sulfate,False,10991.99652205256,2
+generic,Gnrc_Name,Semaglutide,False,1230.611868746215,2731
+generic,Gnrc_Name,Sertraline Hcl,False,1.5247792516929621,3902
+generic,Gnrc_Name,Sevelamer Carbonate,False,200.48448316396798,158
+generic,Gnrc_Name,Sevelamer Hcl,False,389.1589932188376,1
+generic,Gnrc_Name,Sildenafil Citrate,False,65.79004694250762,190
+generic,Gnrc_Name,Silodosin,False,57.015100988055565,58
+generic,Gnrc_Name,Silver Sulfadiazine,False,21.81760310030586,36
+generic,Gnrc_Name,Simvastatin,False,0.679370586042296,3263
+generic,Gnrc_Name,Sirolimus,False,382.67901201549194,14
+generic,Gnrc_Name,Sitagliptin Phos/Metformin Hcl,False,764.4332557759944,89
+generic,Gnrc_Name,Sitagliptin Phosphate,False,966.8405280665775,737
+generic,Gnrc_Name,Sod Phenylbutyrat/Taurursodiol,False,12722.618735954358,2
+generic,Gnrc_Name,Sod Picosulf/Mag Ox/Citric Ac,False,116.5340965329342,11
+generic,Gnrc_Name,Sod Sulf/Pot Chloride/Mag Sulf,False,116.99292229391631,83
+generic,Gnrc_Name,Sodium Bicarbonate,False,47.12757836191622,3
+generic,Gnrc_Name,Sodium Chloride 0.45 %,False,-91.13671515051328,1
+generic,Gnrc_Name,Sodium Chloride Irrig Solution,False,53.03219355579995,4
+generic,Gnrc_Name,Sodium Chloride/Nahco3/Kcl/Peg,False,-20.625843965092827,104
+generic,Gnrc_Name,Sodium Fluoride/Potassium Nit,False,10.868693437660568,2
+generic,Gnrc_Name,Sodium Oxybate,False,15713.632610922099,6
+generic,Gnrc_Name,Sodium Zirconium Cyclosilicate,False,768.9111166888833,88
+generic,Gnrc_Name,"Sodium, Potassium,mag Sulfates",False,22.87081560796014,117
+generic,Gnrc_Name,"Sodium,calcium,mag,pot Oxybate",False,17027.979539664353,9
+generic,Gnrc_Name,Sofosbuvir/Velpatasvir,False,15484.496665621726,8
+generic,Gnrc_Name,Solifenacin Succinate,False,28.86165622550743,541
+generic,Gnrc_Name,Solriamfetol Hcl,False,920.4194940917391,4
+generic,Gnrc_Name,Somapacitan-Beco,False,1291.6888414388386,1
+generic,Gnrc_Name,Somatropin,False,1851.4829983134268,11
+generic,Gnrc_Name,Sonidegib Phosphate,False,12425.181420228404,2
+generic,Gnrc_Name,Sorafenib Tosylate,False,3508.6667595669537,1
+generic,Gnrc_Name,Sotalol Hcl,False,-6.745719845474923,190
+generic,Gnrc_Name,Sotatercept-Csrk,False,15357.621958948455,4
+generic,Gnrc_Name,Sotorasib,False,13530.429769807806,3
+generic,Gnrc_Name,Sparsentan,False,17641.197205675537,1
+generic,Gnrc_Name,Spironolact/Hydrochlorothiazid,False,24.441764309847258,32
+generic,Gnrc_Name,Spironolactone,False,0.7543337092188267,2884
+generic,Gnrc_Name,"Sub-Q Insulin Device, 30 Unit",False,449.6589458835647,1
+generic,Gnrc_Name,Sucralfate,False,55.19657452776846,471
+generic,Gnrc_Name,Sucroferric Oxyhydroxide,False,3149.515577920119,38
+generic,Gnrc_Name,Sulfacetamide Sodium,False,117.46511787341797,6
+generic,Gnrc_Name,Sulfamethoxazole/Trimethoprim,False,-3.0728563222369303,1425
+generic,Gnrc_Name,Sulfasalazine,False,31.134707841475574,155
+generic,Gnrc_Name,Sulindac,False,9.687422015693755,16
+generic,Gnrc_Name,Sumatriptan,False,113.8985943662974,12
+generic,Gnrc_Name,Sumatriptan Succinate,False,9.093633983745349,995
+generic,Gnrc_Name,Sunitinib Malate,False,4332.896114252007,4
+generic,Gnrc_Name,Suvorexant,False,474.90704739214834,191
+generic,Gnrc_Name,"Syrge-Ndl,ins 0.3 Ml Half Mark",False,183.93688192221316,2
+generic,Gnrc_Name,"Syring-Needl,disp,insul,0.3 Ml",False,16.352010209205673,64
+generic,Gnrc_Name,"Syringe And Needle,insulin,1ml",False,21.82105572278988,82
+generic,Gnrc_Name,"Syringe-Needle,insulin,0.5 Ml",False,17.959207481245812,160
+generic,Gnrc_Name,Tacrolimus,False,162.63145503926717,176
+generic,Gnrc_Name,Tadalafil,False,177.30825484436264,171
+generic,Gnrc_Name,Tafamidis,False,24874.15494263458,45
+generic,Gnrc_Name,Tafamidis Meglumine,False,22213.0417608286,6
+generic,Gnrc_Name,Tafluprost/Pf,False,210.2940512674777,28
+generic,Gnrc_Name,Tamoxifen Citrate,False,31.05245542475768,140
+generic,Gnrc_Name,Tamsulosin Hcl,False,7.919989780808919,4094
+generic,Gnrc_Name,Tapentadol Hcl,False,1024.7797832158599,100
+generic,Gnrc_Name,Tapinarof,False,1368.8053867651324,2
+generic,Gnrc_Name,Tasimelteon,False,19183.33759954413,7
+generic,Gnrc_Name,Tavaborole,False,172.649025350564,2
+generic,Gnrc_Name,Tazarotene,False,161.58486757204128,1
+generic,Gnrc_Name,Tbo-Filgrastim,False,525.5220172063787,8
+generic,Gnrc_Name,Tedizolid Phosphate,False,10256.401203191399,4
+generic,Gnrc_Name,Teduglutide,False,45880.49580398298,3
+generic,Gnrc_Name,Telmisartan,False,14.807814467883418,226
+generic,Gnrc_Name,Telmisartan/Hydrochlorothiazid,False,54.6070095395994,10
+generic,Gnrc_Name,Telotristat Etiprate,False,9788.987217608907,1
+generic,Gnrc_Name,Temazepam,False,4.452462324170483,553
+generic,Gnrc_Name,Tenapanor Hcl,False,2915.190168254111,9
+generic,Gnrc_Name,Tenofovir Alafenamide,False,1488.8910699690932,32
+generic,Gnrc_Name,Tenofovir Disoproxil Fumarate,False,60.41284478531588,13
+generic,Gnrc_Name,Tepotinib Hcl,False,24034.62085385103,1
+generic,Gnrc_Name,Teprotumumab-Trbw,False,50439.942984449764,1
+generic,Gnrc_Name,Terazosin Hcl,False,13.888484248699115,334
+generic,Gnrc_Name,Terbinafine Hcl,False,12.162031259005744,211
+generic,Gnrc_Name,Terconazole,False,6.926338638963898,3
+generic,Gnrc_Name,Teriflunomide,False,2170.43632608213,43
+generic,Gnrc_Name,Teriparatide,False,3134.313738517749,120
+generic,Gnrc_Name,Testosterone,False,115.62243150450331,311
+generic,Gnrc_Name,Testosterone Cypionate,False,21.85115292651244,473
+generic,Gnrc_Name,Testosterone Enanthate,False,827.6450469869201,9
+generic,Gnrc_Name,Testosterone Undecanoate,False,820.9160443154497,3
+generic,Gnrc_Name,Tetanus-Diphtheria Toxoids/Pf,False,44.99259930913877,9
+generic,Gnrc_Name,Tetrabenazine,False,690.743892135712,18
+generic,Gnrc_Name,Tezacaftor/Ivacaftor,False,26930.193963977265,2
+generic,Gnrc_Name,Tezepelumab-Ekko,False,4348.442164359216,14
+generic,Gnrc_Name,Theophylline Anhydrous,False,73.61713284281814,20
+generic,Gnrc_Name,Thioridazine Hcl,False,15.72986717952017,2
+generic,Gnrc_Name,Thiothixene,False,177.61870135436857,5
+generic,Gnrc_Name,"Thyroid,pork",False,49.23281832765451,190
+generic,Gnrc_Name,Tiagabine Hcl,False,939.2420627740462,2
+generic,Gnrc_Name,Ticagrelor,False,630.7907215157807,91
+generic,Gnrc_Name,Timolol,False,225.44585728683842,10
+generic,Gnrc_Name,Timolol Maleate,False,-9.291440770500685,505
+generic,Gnrc_Name,Timolol Maleate/Pf,False,272.645677756087,5
+generic,Gnrc_Name,Tiopronin,False,7565.886446716668,2
+generic,Gnrc_Name,Tiotropium Br/Olodaterol Hcl,False,653.5093759498855,339
+generic,Gnrc_Name,Tiotropium Bromide,False,711.8207311429137,1360
+generic,Gnrc_Name,Tirzepatide,False,1250.685669501056,1296
+generic,Gnrc_Name,Tivozanib Hcl,False,29281.494036188404,1
+generic,Gnrc_Name,Tizanidine Hcl,False,2.6040220161503385,1816
+generic,Gnrc_Name,Tobramycin,False,401.25700249730335,27
+generic,Gnrc_Name,Tobramycin Sulfate,False,42.664675379742675,3
+generic,Gnrc_Name,Tobramycin/Dexamethasone,False,35.13163390685486,104
+generic,Gnrc_Name,Tocilizumab,False,4118.444028594859,40
+generic,Gnrc_Name,Tocilizumab-Aazg,False,2508.053891315034,1
+generic,Gnrc_Name,Tofacitinib Citrate,False,5529.890168308888,81
+generic,Gnrc_Name,Tolterodine Tartrate,False,63.6489975414529,96
+generic,Gnrc_Name,Tolvaptan,False,14726.27828315814,3
+generic,Gnrc_Name,Topiramate,False,28.342197701088935,1090
+generic,Gnrc_Name,Torsemide,False,11.279881958111218,475
+generic,Gnrc_Name,Tralokinumab-Ldrm,False,3543.101197452878,8
+generic,Gnrc_Name,Tramadol Hcl,False,4.662895890764048,4288
+generic,Gnrc_Name,Tramadol Hcl/Acetaminophen,False,6.930630855040363,45
+generic,Gnrc_Name,Trametinib Dimethyl Sulfoxide,False,13944.053629208414,7
+generic,Gnrc_Name,Trandolapril,False,10.221455790801429,2
+generic,Gnrc_Name,Tranexamic Acid,False,-76.40301823995787,13
+generic,Gnrc_Name,Tranylcypromine Sulfate,False,166.34675301815696,5
+generic,Gnrc_Name,Travoprost,False,131.62198643416423,112
+generic,Gnrc_Name,Trazodone Hcl,False,0.6364794660166808,4641
+generic,Gnrc_Name,Treprostinil,False,23260.07115171714,10
+generic,Gnrc_Name,Treprostinil Diolamine,False,6152.581765905867,11
+generic,Gnrc_Name,Treprostinil Sodium,False,17846.21038786207,1
+generic,Gnrc_Name,Tretinoin,False,65.84092310429196,115
+generic,Gnrc_Name,Triamcinolone Acetonide,False,6.731478922767565,2254
+generic,Gnrc_Name,Triamterene/Hydrochlorothiazid,False,0.9925907626566186,1183
+generic,Gnrc_Name,Triazolam,False,35.08815628506454,63
+generic,Gnrc_Name,Trifluoperazine Hcl,False,65.45958552461752,7
+generic,Gnrc_Name,Trifluridine/Tipiracil Hcl,False,11268.122196798104,8
+generic,Gnrc_Name,Trihexyphenidyl Hcl,False,-7.62862033047486,69
+generic,Gnrc_Name,Trimethoprim,False,52.35446529312276,63
+generic,Gnrc_Name,Tropicamide,False,-27.561906098083,2
+generic,Gnrc_Name,Trospium Chloride,False,54.973141313556425,274
+generic,Gnrc_Name,Tucatinib,False,15403.811190725903,7
+generic,Gnrc_Name,Typhoid Vi Polysacch Vaccine,False,119.69404255684822,6
+generic,Gnrc_Name,Ubrogepant,False,1153.819921299139,112
+generic,Gnrc_Name,Umeclidinium Brm/Vilanterol Tr,False,563.8220523196696,443
+generic,Gnrc_Name,Umeclidinium Bromide,False,432.2313117879039,305
+generic,Gnrc_Name,Upadacitinib,False,7037.60516722833,75
+generic,Gnrc_Name,Ursodiol,False,122.10163407826576,157
+generic,Gnrc_Name,Ustekinumab,False,26893.68288760786,52
+generic,Gnrc_Name,Valacyclovir Hcl,False,33.246855039181355,1318
+generic,Gnrc_Name,Valbenazine Tosylate,False,8109.811461588103,146
+generic,Gnrc_Name,Valganciclovir Hcl,False,180.55876474261686,34
+generic,Gnrc_Name,Valproic Acid,False,38.404444841444274,19
+generic,Gnrc_Name,Valproic Acid (As Sodium Salt),False,19.82566502993268,47
+generic,Gnrc_Name,Valsartan,False,14.492529588009802,889
+generic,Gnrc_Name,Valsartan/Hydrochlorothiazide,False,21.695326304862647,292
+generic,Gnrc_Name,Vancomycin Hcl,False,121.3350200454015,57
+generic,Gnrc_Name,Vancomycin/0.9 % Sod Chloride,False,90.45289508244923,5
+generic,Gnrc_Name,Vancomycin/Water For Inj (Peg),False,78.48686473721637,2
+generic,Gnrc_Name,Varenicline Tartrate,False,250.1567000994878,200
+generic,Gnrc_Name,Varicella Vaccine Live/Pf,False,145.45749060365551,1
+generic,Gnrc_Name,Varicella-Zoster Ge/As01b/Pf,False,199.70919464950885,554
+generic,Gnrc_Name,Vedolizumab,False,6462.741229373427,6
+generic,Gnrc_Name,Vemurafenib,False,6289.6391311779535,1
+generic,Gnrc_Name,Venetoclax,False,10034.025607466607,55
+generic,Gnrc_Name,Venlafaxine Besylate,False,147.74280049907156,1
+generic,Gnrc_Name,Venlafaxine Hcl,False,19.746191734279364,2677
+generic,Gnrc_Name,Verapamil Hcl,False,20.318053182158565,437
+generic,Gnrc_Name,Vericiguat,False,1107.8977647062948,5
+generic,Gnrc_Name,Vibegron,False,682.0951794012913,305
+generic,Gnrc_Name,Vilazodone Hcl,False,96.2116076601992,110
+generic,Gnrc_Name,Viloxazine Hcl,False,432.18070394440565,3
+generic,Gnrc_Name,Vismodegib,False,9242.138556415219,1
+generic,Gnrc_Name,Voclosporin,False,14988.27171740199,1
+generic,Gnrc_Name,Vonoprazan Fumarate,False,639.6593021615349,1
+generic,Gnrc_Name,Voriconazole,False,220.04011276256324,2
+generic,Gnrc_Name,Vorinostat,False,8036.510784627985,1
+generic,Gnrc_Name,Vortioxetine Hydrobromide,False,655.7429123042848,153
+generic,Gnrc_Name,Voxelotor,False,14680.028085970522,1
+generic,Gnrc_Name,Warfarin Sodium,False,-0.4821918169163837,1782
+generic,Gnrc_Name,"Water For Irrigation,sterile",False,19.21876644385884,3
+generic,Gnrc_Name,Yellow Fever Vaccine Live/Pf,False,165.56341800259452,6
+generic,Gnrc_Name,Zafirlukast,False,125.11911006052787,10
+generic,Gnrc_Name,Zaleplon,False,8.505340898396753,63
+generic,Gnrc_Name,Zanubrutinib,False,12946.085481216423,65
+generic,Gnrc_Name,Zavegepant Hcl,False,1171.9002721113666,3
+generic,Gnrc_Name,Zileuton,False,1180.4129107883423,5
+generic,Gnrc_Name,Zilucoplan Sodium,False,42271.511524023736,1
+generic,Gnrc_Name,Ziprasidone Hcl,False,68.98808754790616,212
+generic,Gnrc_Name,Zolmitriptan,False,133.97172206311552,12
+generic,Gnrc_Name,Zolpidem Tartrate,False,1.7967013918123484,2723
+generic,Gnrc_Name,Zonisamide,False,38.27877799994212,160
